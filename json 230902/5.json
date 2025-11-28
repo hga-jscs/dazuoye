@@ -1,0 +1,1618 @@
+[
+    {
+        "id": "5fa172c20f49443b",
+        "type": "tab",
+        "label": "mainCalc",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1f92eed3352f8aa5",
+        "type": "tab",
+        "label": "BetInputCheck",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "db1664ca19e007e4",
+        "type": "group",
+        "z": "5fa172c20f49443b",
+        "name": "Global Settings Load",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a0e98eb9e64d9cd6",
+            "4a45cc485f644505",
+            "e5dcf619beeb6d82",
+            "3a76cd70a0954887",
+            "ce4d24263c44e46c",
+            "5926f857c39fa7f8",
+            "a9efc5167470cd12",
+            "97dedff557300f31",
+            "29ee4f96d6e5d988",
+            "fa59f6c4d6ce4b69"
+        ],
+        "x": 354,
+        "y": 219,
+        "w": 1512,
+        "h": 162
+    },
+    {
+        "id": "b93dd9f1ed02b46a",
+        "type": "group",
+        "z": "5fa172c20f49443b",
+        "name": "SortedBetsCheck",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "dd2f628224cbb4c3",
+            "b7f2bcc8b657be27",
+            "803b92c8ed55dc13",
+            "7f099d933bceb328"
+        ],
+        "x": 348,
+        "y": 419,
+        "w": 1524,
+        "h": 708
+    },
+    {
+        "id": "4126bd8cd63414e5",
+        "type": "group",
+        "z": "1f92eed3352f8aa5",
+        "name": "BetInputCheck",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "9e02f8f5e79de5a0",
+            "bf94ecd062e4e70d",
+            "907bb0adef74d85a",
+            "3172a5061aab2782",
+            "8dde91e674783ac8",
+            "82f37f0f6985ba34",
+            "991f5a75c2dd331f"
+        ],
+        "x": 8,
+        "y": 119,
+        "w": 1534,
+        "h": 768
+    },
+    {
+        "id": "dd2f628224cbb4c3",
+        "type": "group",
+        "z": "5fa172c20f49443b",
+        "g": "b93dd9f1ed02b46a",
+        "name": "SortedBetsCheck: Ph1 Extract",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "3849cc7df492b362",
+            "a16a17c27bd71bd6",
+            "16001f67efa309e1",
+            "81f5f6ed3582f4a7",
+            "1fe4967103d1edc8",
+            "3f833d99e1e7b34b",
+            "7e905be2ddbf209f",
+            "5bd19c03c084c56e",
+            "6a4c7c8a5d485e67",
+            "79223214381a0e94",
+            "c4b93446aa230ff6",
+            "4ca12deadd3be409"
+        ],
+        "x": 374,
+        "y": 499,
+        "w": 1452,
+        "h": 202
+    },
+    {
+        "id": "b7f2bcc8b657be27",
+        "type": "group",
+        "z": "5fa172c20f49443b",
+        "g": "b93dd9f1ed02b46a",
+        "name": "SortedBetsCheck: Ph2 Transform",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "8c83108e97fb0cd2",
+            "651a04261d7b2c0e",
+            "c99ea954399ff73e",
+            "6aa833b66249717c",
+            "6eb1d3bdf91d9769",
+            "6de8c17c083cb8f4",
+            "fb9fbb9ae42710bd",
+            "c59ac708faab91cb",
+            "f617a066e7adfd41",
+            "273cefe442d4e299",
+            "6c93cf3ab8ccd07f"
+        ],
+        "x": 374,
+        "y": 739,
+        "w": 1472,
+        "h": 202
+    },
+    {
+        "id": "803b92c8ed55dc13",
+        "type": "group",
+        "z": "5fa172c20f49443b",
+        "g": "b93dd9f1ed02b46a",
+        "name": "SortedBetsCheck: Ph3 Load",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "118cd677cd25eb05",
+            "75d6aaab0021d346",
+            "3bdb39087ef4d457",
+            "62e4b98de6625a13"
+        ],
+        "x": 374,
+        "y": 959,
+        "w": 1462,
+        "h": 142
+    },
+    {
+        "id": "9e02f8f5e79de5a0",
+        "type": "group",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "BetInputCheck: Ph1 Extract",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "272b6d76a23994ba",
+            "3b7490b20fbb7087",
+            "bd4fd4d1e09d770b",
+            "74c06399d74963b0",
+            "f4d0bfed3d6727e6",
+            "5f817b78b5dfe714",
+            "fb5587b589c5cd32",
+            "24c74fc74752908c",
+            "054adb80f90a06e5",
+            "f4f02f7b9a092dd3"
+        ],
+        "x": 44,
+        "y": 179,
+        "w": 1432,
+        "h": 162
+    },
+    {
+        "id": "bf94ecd062e4e70d",
+        "type": "group",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "BetInputCheck: Ph2 Transform",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "9d42e07bd472374f",
+            "aab5da598ff97b79",
+            "6d7830c85b50c511",
+            "b4dca9fd7958c13f",
+            "12551b69148dc875",
+            "18ee888a0e0c3587",
+            "740d874372634aa9",
+            "b753d113f1e07d62",
+            "aa6c72150d31fb90",
+            "148caedec77ae2dc",
+            "7f404f5ee3444148"
+        ],
+        "x": 34,
+        "y": 499,
+        "w": 1462,
+        "h": 202
+    },
+    {
+        "id": "907bb0adef74d85a",
+        "type": "group",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "BetInputCheck: Ph3 Load",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "844825e531e70a8c",
+            "8e05a6c56f99c187",
+            "2e4fb60325f287ea",
+            "37c361494a477963"
+        ],
+        "x": 34,
+        "y": 719,
+        "w": 1482,
+        "h": 142
+    },
+    {
+        "id": "df8a615d6d2cd2e7",
+        "type": "websocket-listener",
+        "path": "/ws/BetInputCheck",
+        "wholemsg": "false"
+    },
+    {
+        "id": "14d05059c9c5dcb2",
+        "type": "mongodb4-client",
+        "name": "Cima Main Connection",
+        "protocol": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "22000",
+        "dbName": "CimaMain",
+        "appName": "",
+        "authSource": "admin",
+        "authMechanism": "SCRAM-SHA-256",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "",
+        "maxIdleTimeMS": "0",
+        "uri": "mongodb://127.0.0.1:22000",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "e4e016d97422cd46",
+        "type": "mongodb4-client",
+        "name": "Test Connection",
+        "protocol": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "27018",
+        "dbName": "admin",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "e2bc7ac9aa77279e",
+        "type": "mongodb4-client",
+        "name": "simple connection",
+        "protocol": "mongodb",
+        "hostname": "localhost",
+        "port": "",
+        "dbName": "nodered",
+        "authSource": "nodered",
+        "authMechanism": "SCRAM-SHA-256",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsInsecure": false,
+        "uri": "",
+        "advanced": "{\"connectTimeoutMS\": 30000}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "dd0b7f14421d961d",
+        "type": "mongodb4-client",
+        "name": "advanced connection",
+        "protocol": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "22000",
+        "dbName": "CimaMain",
+        "appName": "",
+        "authSource": "admin",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "",
+        "socketTimeoutMS": "",
+        "minPoolSize": "",
+        "maxPoolSize": "",
+        "maxIdleTimeMS": "",
+        "uri": "mongodb://localhost:22000",
+        "advanced": "",
+        "uriTabActive": "tab-uri-advanced"
+    },
+    {
+        "id": "ef145817919fa76c",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": "22000",
+        "db": "CimaMain",
+        "name": "Cima Connect"
+    },
+    {
+        "id": "4a45cc485f644505",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Load Sports Settings",
+        "func": "msg.extractMessage = msg.payload;\nmsg.timestamp = Date.now();\n\n// find query argument\nconst query = {\n};\n\n// payload for mongodb4 node\nmsg.payload = [query];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 260,
+        "wires": [
+            [
+                "fa59f6c4d6ce4b69"
+            ]
+        ]
+    },
+    {
+        "id": "e5dcf619beeb6d82",
+        "type": "http in",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "",
+        "url": "/LoadSettings",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "4a45cc485f644505"
+            ]
+        ]
+    },
+    {
+        "id": "8c83108e97fb0cd2",
+        "type": "comment",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Outputs one at a time",
+        "info": "",
+        "x": 740,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "3a76cd70a0954887",
+        "type": "inject",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "START INJECT",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "START",
+        "payloadType": "str",
+        "x": 480,
+        "y": 320,
+        "wires": [
+            [
+                "4a45cc485f644505",
+                "a0e98eb9e64d9cd6"
+            ]
+        ]
+    },
+    {
+        "id": "ce4d24263c44e46c",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Sports Settings Results",
+        "func": "var SportsSettingsObject = {};\n\nif (Array.isArray(msg.payload)) {\n    for (let index = 0; index < msg.payload.length; index++) {\n        // Use the lowercase 'sports' as the key\n        let sportsName = msg.payload[index].sports;\n        SportsSettingsObject[sportsName] = msg.payload[index];\n    }\n} else {\n    node.error(\"msg.payload is not an array!\", msg);\n}\n\n// Set the object in the global context after the loop\ncontext.global.set('SportsSettings', SportsSettingsObject);\n\nmsg.SportsSettingsObject = SportsSettingsObject;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 260,
+        "wires": [
+            [
+                "5926f857c39fa7f8"
+            ]
+        ]
+    },
+    {
+        "id": "5926f857c39fa7f8",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Sports Settings",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a0e98eb9e64d9cd6",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Load Stake Settings",
+        "func": "msg.extractMessage = msg.payload;\nmsg.timestamp = Date.now();\n\n// find query argument\nconst query = {\n};\n\n// payload for mongodb4 node\nmsg.payload = [query];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 340,
+        "wires": [
+            [
+                "a9efc5167470cd12"
+            ]
+        ]
+    },
+    {
+        "id": "97dedff557300f31",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Stake Settings Results",
+        "func": "// Set a global context variable using a message\ncontext.global.set('StakeSettings', msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 340,
+        "wires": [
+            [
+                "29ee4f96d6e5d988"
+            ]
+        ]
+    },
+    {
+        "id": "29ee4f96d6e5d988",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "name": "Stake Settings",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1740,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "651a04261d7b2c0e",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Transform 2: LineType Sorter",
+        "func": "var incomingMessage = msg;\n\n//--------------------------------------\n// OUTPUT TO LINE TYPE CALCULATORS\n// Define output names and their corresponding indexes\nconst outputMapping = {\n    \"POINTSPREAD\": 0,\n    \"TOTAL\": 1,\n    \"MONEYLINE\": 2,\n    // Add more output names and indexes as needed\n};\n\nlet outputIndex;\n\nfunction outputMappedSend(currentResult, outputIndex) {\n    // Create an array to store messages for each output, initialized with null values\n    const outputs = Array(Object.keys(outputMapping).length).fill(null);\n\n    // Construct a new message object for the output\n    var outputMessage = {\n        req: incomingMessage.req, // Spread operator to copy existing msg properties\n        res: incomingMessage.res,\n        transform1Message: {combinedResults : incomingMessage.combinedResults, resultsArray : incomingMessage.resultsArray},\n        transform2Message: currentResult,\n        extractMessage: incomingMessage.extractMessage\n    };\n\n    // Ensure the extractMessage doesn't carry over unnecessary properties\n    if (outputMessage.extractMessage) {\n        delete outputMessage.transform1Message.extractMessage;\n    }\n\n    \n    // Assign the new message to the appropriate output based on the index\n    outputs[outputIndex] = outputMessage;\n\n    // Send the messages. Only the targeted output index will have a non-null message.\n    node.send([outputs]);\n}\n\n//------------\n//Calculate Length and iterate through\n// a. For resultLength Check msg.resultsArray\n// b. Switch Route it Through\n// c. The router calls a function.\n// Assuming msg.resultsArray is an array\n\nfor (let i = 0; i < incomingMessage.resultsArray.length; i++) {\n    // Access each element using msg.resultsArray[i]\n    let currentResult = incomingMessage.resultsArray[i];\n\n    // Determine the index of the desired output based on the LineType\n    switch (incomingMessage.resultsArray[i].LineType) {\n        case 'POINTSPREAD':\n            outputIndex = outputMapping[\"POINTSPREAD\"];\n            outputMappedSend(currentResult, outputIndex);\n            break;\n        case 'TOTAL':\n            outputIndex = outputMapping[\"TOTAL\"];\n            outputMappedSend(currentResult, outputIndex);\n            break;\n        case 'MONEYLINE':\n            outputIndex = outputMapping[\"MONEYLINE\"];\n            outputMappedSend(currentResult, outputIndex);\n            break;\n        default:\n            // Handle default case (optional)\n            node.warn('Unknown LineType: ', incomingMessage.resultsArray[i]);\n    }\n}\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 3,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 840,
+        "wires": [
+            [
+                "6aa833b66249717c",
+                "6eb1d3bdf91d9769"
+            ],
+            [
+                "6de8c17c083cb8f4"
+            ],
+            [
+                "fb9fbb9ae42710bd"
+            ]
+        ],
+        "outputLabels": [
+            "POINTSPREAD",
+            "TOTAL",
+            "MONEYLINE"
+        ]
+    },
+    {
+        "id": "c99ea954399ff73e",
+        "type": "link in",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "SBCheck Ph2: IN : Transform1 : Split Messages > Line Type Sorter",
+        "links": [
+            "79223214381a0e94"
+        ],
+        "x": 415,
+        "y": 840,
+        "wires": [
+            [
+                "651a04261d7b2c0e"
+            ]
+        ]
+    },
+    {
+        "id": "6aa833b66249717c",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Transform 2: Pointspread",
+        "func": "// 3. Check Bet \n    // If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n    // If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n    // Then calculate line ; vig ; outcomes\n    // Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n    // Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform2Message = incomingMessageVar.transform2Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform2Message['Sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n        \n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n        \n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n    \n    return result;\n}\n\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    main.PointspreadPointsDifference = transform2Message['Bet1'].Line1PointsAmFloat + transform2Message['Bet2'].Line2PointsAmFloat\n\n    main.PointspreadRangeMin = SportsSettingsVar[main.sport].PointspreadRangeMin;\n    main.PointspreadRangeMax = SportsSettingsVar[main.sport].PointspreadRangeMax;\n\n    // Calculate Range Rating\n    main.PointspreadPointsDifferenceRating = main.PointspreadPointsDifference / main.PointspreadRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n    \n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n    \n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        main.line[i] = transform2Message[`Bet${i}`];        \n        main.line[i].lineValue = transform2Message[`Bet${i}`][`Line${i}PriceAmML`];\n\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win; \n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;            \n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n    \n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n    \n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n    \n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n \n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n    \n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n    \n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.PointspreadPointsDifference >= main.PointspreadRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MIDDLEBET\";\n    }   \n    // B: If Arb Less than Range min & greater than 0\n    else if (main.PointspreadPointsDifference < main.PointspreadRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15){\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.PointspreadPointsDifference < main.PointspreadRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else{\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\"){\n        main.line[1].stake = globalStake; \n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\"){\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1/100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2/100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform2Message = incomingMessageVar.transform2Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform2Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 6,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 820,
+        "wires": [
+            [
+                "c59ac708faab91cb",
+                "f617a066e7adfd41"
+            ]
+        ]
+    },
+    {
+        "id": "6eb1d3bdf91d9769",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Debug PspreadSorter",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "6de8c17c083cb8f4",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Transform 2: Totals",
+        "func": "// 3. Check Bet \n// If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n// If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n// Then calculate line ; vig ; outcomes\n// Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n// Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform2Message = incomingMessageVar.transform2Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform2Message['Sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n\n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n\n    return result;\n}\n\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    main.TotalsPointsDifference = transform2Message['Bet1'].Line1PointsAmFloat + transform2Message['Bet2'].Line2PointsAmFloat\n\n    main.TotalsRangeMin = SportsSettingsVar[main.sport].TotalsRangeMin;\n    main.TotalsRangeMax = SportsSettingsVar[main.sport].TotalsRangeMax;\n\n    // Calculate Range Rating\n    main.TotalsPointsDifferenceRating = main.TotalsPointsDifference / main.TotalsRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        main.line[i] = transform2Message[`Bet${i}`];\n        main.line[i].lineValue = transform2Message[`Bet${i}`][`Line${i}PriceAmML`];\n\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win;\n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n\n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n\n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n\n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n\n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.TotalsPointsDifference >= main.TotalsRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MIDDLEBET\";\n    }\n    // B: If Arb Less than Range min & greater than 0\n    else if (main.TotalsPointsDifference < main.TotalsRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15) {\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.TotalsPointsDifference < main.TotalsRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else {\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\") {\n        main.line[1].stake = globalStake;\n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\") {\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1 / 100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2 / 100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform2Message = incomingMessageVar.transform2Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform2Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 6,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 860,
+        "wires": [
+            [
+                "f617a066e7adfd41"
+            ]
+        ]
+    },
+    {
+        "id": "fb9fbb9ae42710bd",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Transform 2: Moneyline",
+        "func": "// 3. Check Bet \n// If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n// If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n// Then calculate line ; vig ; outcomes\n// Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n// Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform2Message = incomingMessageVar.transform2Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform2Message['Sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n\n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n\n    return result;\n}\n\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    main.MoneylineDifference = transform2Message['Bet1'].Line1PointsAmFloat + transform2Message['Bet2'].Line2PointsAmFloat\n\n    main.MoneylineRangeMin = SportsSettingsVar[main.sport].MoneylineRangeMin;\n    main.MoneylineRangeMax = SportsSettingsVar[main.sport].MoneylineRangeMax;\n\n    // Calculate Range Rating\n    main.MoneylineDifferenceRating = main.MoneylineDifference / main.MoneylineRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        main.line[i] = transform2Message[`Bet${i}`];\n        main.line[i].lineValue = transform2Message[`Bet${i}`][`Line${i}PriceAmML`];\n\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win;\n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n\n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n\n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n\n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n\n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.MoneylineDifference >= main.MoneylineRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MONEYLINEBET\";\n    }\n    // B: If Arb Less than Range min & greater than 0\n    else if (main.MoneylineDifference < main.MoneylineRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15) {\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.MoneylineDifference < main.MoneylineRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else {\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\") {\n        main.line[1].stake = globalStake;\n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\") {\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1 / 100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2 / 100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform2Message = incomingMessageVar.transform2Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform2Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 6,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 900,
+        "wires": [
+            [
+                "f617a066e7adfd41"
+            ]
+        ]
+    },
+    {
+        "id": "c59ac708faab91cb",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Debug PSpread",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "f617a066e7adfd41",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Transform 2: Comparative Bets",
+        "func": "\nvar incomingMessage = msg;\nvar msgIDVar = msg._msgid;\nvar resultCounter = incomingMessage.transform1Message.resultsArray.length;\nvar main = {};\nvar tenPercentStake = 10;\nvar vigMax = 5;\nvar arbPercentageRangeMin = 4;\nvar vigSplitRangeMin = 15;\nvar moneylineRangeMin = 21;\n\n//===================================\n// Buffer Functions\n// Initialize a buffer object if it doesn't exist\nif (!context.get(\"buffer\")) {\n    context.set(\"buffer\", {});\n}\n\n\n// Initialize a timeout object to keep track of message timeouts\nif (!context.get(\"timeouts\")) {\n    context.set(\"timeouts\", {});\n}\n\nlet buffer = context.get(\"buffer\");\n\nlet timeouts = context.get(\"timeouts\");\nconst timeoutDuration = 60000; // Timeout duration in milliseconds (1 minute)\n\n\n// Ensure buffer entry exists and initialize it as an empty array if it doesn't\nif (!buffer[msgIDVar]) {\n    buffer[msgIDVar] = {};\n    buffer[msgIDVar].messages = [];\n}\n\n// Add the incoming message to the buffer array for this msgIDVar\nbuffer[msgIDVar].messages.push(incomingMessage);\ncontext.set(\"buffer\", buffer); // Persist the updated buffer\n\n\n// Check if we need to set a timeout for this msgIDVar\nif (!timeouts[msgIDVar]) {\n    timeouts[msgIDVar] = setTimeout(() => {\n        cleanupBuffer(msgIDVar); // Cleanup function called after timeout\n        node.warn(`Cleanup performed for msgIDVar ${msgIDVar} due to timeout.`);\n    }, timeoutDuration);\n    context.set(\"timeouts\", timeouts); // Persist the updated timeouts\n}\n\n\n// Function to clean up the buffer and timeouts\nfunction cleanupBuffer(msgIDVar) {\n    const index = msgIDVar;\n    delete buffer[index]; // Remove the message group from the buffer\n    delete timeouts[index]; // Remove the timeout for this message group\n    context.set(\"buffer\", buffer); // Update the buffer in flow context\n    context.set(\"timeouts\", timeouts); // Update the timeouts in flow context\n}\n\n//=========================\n// CALCULATION FUNCTIONS\n// 4. figure out which is the original message\n    // a. if IncomingMessage._id = extractMessage._id\n    // b. if extractMessage._id bet Type == middle, arb, vigsplit \n    // c. compare vigsplit, arb, middle as +10% profit of the highest one (if doesn't exist, take it)\n    // d. check against final gating conditions of profitability.\n    // e. mark as SameGame = Clear\n\n// General function to extract and sort messages by a specified property path\nfunction extractAndSortByProperty(messages, propertyPath) {\n    // Split the property path into parts for nested properties\n    const pathParts = propertyPath.split('.');\n\n    // Map and extract the specified property value, handling nested properties\n    const extractedValues = messages.map((message, index) => {\n        let value = message.transform2Message;\n        for (const part of pathParts) {\n            value = value ? value[part] : undefined;\n        }\n        return { messageIndex: index, value };\n    });\n\n    // Filter out any undefined values that may not exist for the specified property\n    const filteredValues = extractedValues.filter(item => item.value !== undefined);\n\n    // Sort the filtered array by the specified property in descending order\n    filteredValues.sort((a, b) => b.value - a.value);\n\n    return filteredValues;\n}\n\n\nfunction calculateComparison(){\n// Calculate Within  PointSpread , Totals, Moneyline\n    // a. if IncomingMessage._id = extractMessage._id\n    // b. if extractMessage._id bet Type == middle, arb, vigsplit\n    // c. compare vigsplit, arb, middle as +10% profit of the highest one (if doesn't exist, take it)\n    // d. check against final gating conditions of profitability.\n    // e. mark as SameGame = Clear\n\n\n    // -------------------\n\n    // Check if the incomingMessage.transform2Message is the main bet to compare all results\n    if (incomingMessage.transform2Message && incomingMessage.transform2Message._id == incomingMessage.extractMessage._id){\n        // Set Bet Type\n        main.BetType = incomingMessage.transform2Message.BetType; \n    }\n\n\n    // A: If MIDDLEBET\n    if (main.BetType == \"MIDDLEBET\"){\n\n        // Filter results by BetType\n        let middleBetMessages = buffer[msgIDVar].messages.filter(message =>\n            message.transform2Message && message.transform2Message.BetType === \"MIDDLEBET\"\n        );\n        // Check if it doesn't exist\n        if (middleBetMessages.length <= 0){\n            main.SameGame = \"Clear\";\n        }\n        // If it exists, compare        \n        else{\n            // Example: Sort by 'PointspreadPointsDifference'\n            let sortedByPointspread = extractAndSortByProperty(buffer[msgIDVar].messages, 'PointspreadPointsDifference');\n\n            // Check if Points / Profit Margin is high enough\n            if (incomingMessage.transform2Message.PointspreadPointsDifference > sortedByPointspread[0])\n            {\n                // If so , mark it clear\n                main.SameGame = \"Clear\";\n            } else {\n                // If not , mark it unclear\n                main.SameGame = \"Unclear\";\n            }\n        }\n    }\n    // B: If ARBBET\n    if (main.BetType == \"ARBBET\") {\n       \n        // Filter results by BetType\n        let arbBetMessages = buffer[msgIDVar].messages.filter(message =>\n            message.transform2Message && message.transform2Message.BetType === \"ARBBET\"\n        );\n        // Check if it doesn't exist\n        if (arbBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        }\n        // If it exists, compare        \n        else {\n            // Example: Sort by nested 'arbResults.ArbPercentage'\n            let sortedByArbPercentage = extractAndSortByProperty(buffer[msgIDVar].messages, 'arbResults.ArbPercentage');\n\n            // Example: Sort by nested 'arbResults.ArbProfit1'\n            let sortedByArbProfit1 = extractAndSortByProperty(buffer[msgIDVar].messages, 'arbResults.ArbProfit1');\n\n            // Check if Points / Profit Margin is high enough\n            if (incomingMessage.transform2Message.arbResults.ArbPercentage > (sortedByArbPercentage[0] + 3) || incomingMessage.transform2Message.arbResults.ArbProfit1 > (sortedByArbProfit1[0] + tenPercentStake)) {\n                // If so , mark it clear\n                main.SameGame = \"Clear\";\n            } else{\n                // If not , mark it unclear\n                main.SameGame = \"Unclear\";\n            }\n        }\n    }\n    // C: If Vigsplitbet\n    if (main.BetType == \"VIGSPLITBET\") {\n\n        // Filter results by BetType\n        let vigsplitBetMessages = buffer[msgIDVar].messages.filter(message =>\n            message.transform2Message && message.transform2Message.BetType === \"VIGSPLITBET\"\n        );\n        // Check if it doesn't exist\n        if (vigsplitBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        } else {\n        // If not , mark it unclear\n            main.SameGame = \"Unclear\";\n        }\n    }\n    // D: If Vigsplitbet\n    if (main.BetType == \"MONEYLINEBET\") {\n\n        // Filter results by BetType\n        let moneylineBetMessages = buffer[msgIDVar].messages.filter(message =>\n            message.transform2Message && message.transform2Message.BetType === \"MONEYLINEBET\"\n        );\n        // Check if it doesn't exist\n        if (moneylineBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        } else {\n            // If not , mark it unclear\n            main.SameGame = \"Unclear\";\n        }\n    }\n\n    //--------------------\n    // CHECK IF NO RESULTS ; RETURN IF NONE\n    if (incomingMessage.transform1Message.resultsArray.length == 1) {\n        main.SameGame = \"Clear\";\n    }\n    \n}\n\nfunction calculateProfit() {\n\n    // CHECK MIDDLEBET\n    if (incomingMessage.transform2Message.BetType == \"MIDDLEBET\"){\n        if (incomingMessage.transform2Message.PointspreadPointsDifference >= incomingMessage.transform2Message.PointspreadRangeMin)\n        {main.profitCheck = true;}\n        else{ main.profitCheck = false;}\n    }\n    // CHECK ARBBET\n    else if(incomingMessage.transform2Message.BetType == \"ARBBET\"){\n        if (incomingMessage.transform2Message.arbResults.ArbPercentage >= arbPercentageRangeMin)\n        { main.profitCheck = true; }\n        else { main.profitCheck = false; }      \n    }\n    // CHECK VIGSPLITBET\n    else if (incomingMessage.transform2Message.BetType == \"VIGSPLITBET\"){\n        if (incomingMessage.transform2Message.vigSplitProfit >= vigSplitRangeMin) { main.profitCheck = true; }\n        else { main.profitCheck = false; }\n    }\n    // CHECK MONEYLINEBET\n    else if (incomingMessage.transform2Message.BetType == \"MONEYLINEBET\") {\n        if (incomingMessage.transform2Message.moneylineDifference > moneylineRangeMin) { main.profitCheck = true; }\n        else { main.profitCheck = false; }\n    }\n    // CHECK VIGMAX\n    if (incomingMessage.transform2Message.TotalVig > vigMax){\n        main.profitCheck = false;\n    }\n\n}\n\n\n//========================\n// EXECUTION FUNCTIONS\n\n// If we have collected resultCounter messages for this msgIDVar, process them\nif (buffer[msgIDVar].messages.length === resultCounter) {\n\n    //-------------\n    //iterate through the incomingMessage.resultsArray[i]._id and check if it there are matches to the ones in the buffer\n    let matchesCount = 0;\n\n    // Example of improved match checking, avoiding incorrect index access\n    buffer[msgIDVar].messages.forEach((bufferedMsg, index) => {\n        if (bufferedMsg.transform2Message && incomingMessage.transform1Message.resultsArray.some(res => res._id === bufferedMsg.transform2Message._id)) {\n            matchesCount++;\n        }\n    });\n\n    //------------\n    // IF all messages exist, and complete.\n    if (matchesCount == incomingMessage.transform1Message.resultsArray.length) {\n        \n \n        clearTimeout(timeouts[msgIDVar]); // Important to clear timeout\n        context.set(\"timeouts\", timeouts); // Persist timeouts changes\n\n        // CALCULATE HERE\n        calculateComparison();\n        calculateProfit();\n        \n        // ADD ALL KEYS\n        for (const [key, value] of Object.entries(main)) {\n            incomingMessage.transform2Message[key] = value;\n        }\n        \n        // Prep Message and Send\n        var newMsg = {...msg};\n        newMsg.matches = matchesCount;\n        newMsg.extractMessage = msg.extractMessage;\n        newMsg.transform2Message = incomingMessage.transform2Message;\n        newMsg.transform1Message = incomingMessage.transform1Message;\n        newMsg.transformResults = incomingMessage.transformResults;\n        newMsg.main = main;\n\n        // Send the combined message on\n        node.send(newMsg);\n\n        // Cleanup buffer and timeouts for this msgIDVar\n        cleanupBuffer(msgIDVar);\n    } else {\n        // Handle case where results are missing\n        node.error(\"Not matching length\", msg);\n    }\n\n}\n\n//\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 880,
+        "wires": [
+            [
+                "6c93cf3ab8ccd07f",
+                "273cefe442d4e299"
+            ]
+        ]
+    },
+    {
+        "id": "3849cc7df492b362",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "Transform1 : Comparative Query Results",
+        "func": "var msgIDVar = msg._msgid;\n\n// Initialize a buffer object if it doesn't exist\nif (!context.get(\"buffer\")) {\n    context.set(\"buffer\", {});\n}\n\n// Initialize a timeout object to keep track of message timeouts\nif (!context.get(\"timeouts\")) {\n    context.set(\"timeouts\", {});\n}\n\nlet buffer = context.get(\"buffer\");\nlet timeouts = context.get(\"timeouts\");\nconst timeoutDuration = 60000; // Timeout duration in milliseconds (1 minute)\n\n// Function to clean up the buffer and timeouts\nfunction cleanupBuffer(msgIDVar) {\n    const index = msgIDVar;\n    delete buffer[index]; // Remove the message group from the buffer\n    delete timeouts[index]; // Remove the timeout for this message group\n    context.set(\"buffer\", buffer); // Update the buffer in flow context\n    context.set(\"timeouts\", timeouts); // Update the timeouts in flow context\n}\n\n// Ensure buffer entry exists and initialize it as an empty array if it doesn't\nif (!buffer[msgIDVar]) {\n    buffer[msgIDVar] = [];\n}\n\n// Add the incoming message to the buffer array for this msgIDVar\nbuffer[msgIDVar].push(msg);\n\n// Check if we need to set a timeout for this msgIDVar\nif (!timeouts[msgIDVar]) {\n    timeouts[msgIDVar] = setTimeout(() => {\n        cleanupBuffer(msgIDVar); // Cleanup function called after timeout\n        node.warn(`Cleanup performed for msgIDVar ${msgIDVar} due to timeout.`);\n    }, timeoutDuration);\n}\n\n// If we have collected 3 messages for this msgIDVar, process them\nif (buffer[msgIDVar].length === 3) {\n    //node.send(msg);\n    \n    // Check if all required collections are present\n    const collections = [\"InProgressBets\", \"CompletedTransactions\", \"SortedBets\"];\n    const collectedCollections = buffer[msgIDVar].map(msg => msg.collection);\n\n    if (collections.every(collection => collectedCollections.includes(collection))) {\n        clearTimeout(timeouts[msgIDVar]); // Cancel the timeout as we're processing the messages\n        let combinedResults = {};\n\n        // Process messages based on their collections\n        buffer[msgIDVar].forEach((messageVar) => {\n            combinedResults[messageVar.collection] = messageVar.result;\n        });\n\n        // Add a new combo property, clean up\n        msg.combinedResults = combinedResults;\n        delete msg.payload;\n        delete msg.queryID;\n        delete msg.query;\n        delete msg.result;\n        delete msg.collection;\n\n        // Send the combined message on\n        node.send(msg);\n\n        // Cleanup buffer and timeouts for this msgIDVar\n        cleanupBuffer(msgIDVar); \n    } else {\n        // Handle case where required collections are missing\n        node.error(\"Not all required collections are present in the buffered messages.\", msg);\n    }\n    \n}\n\nreturn null; // Prevent sending the original message onwards",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 600,
+        "wires": [
+            [
+                "1fe4967103d1edc8",
+                "3f833d99e1e7b34b"
+            ]
+        ]
+    },
+    {
+        "id": "1fe4967103d1edc8",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "results",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1450,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3f833d99e1e7b34b",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "Spit Messages",
+        "func": "// Extract the input array\nvar incomingMessage = msg;\nvar newMsg = msg;\n\n    // MAKE ARRAY\n    var resultsArray = [];\n\n    // Define the properties to check\n    var resultsToGet = [\n        'SortedBets',\n        'InProgressBets',\n        'CompletedTransactions',\n    ];\n\n    // Iterate over the properties and push non-empty values to the array\n    resultsToGet.forEach(property => {\n        // Check if the property exists and is not undefined, and if it is an array\n        if (msg.combinedResults[property] && Array.isArray(msg.combinedResults[property].result)) {\n            // Iterate over the elements of the array and push them to the resultsArray\n            msg.combinedResults[property].result.forEach(entry => {\n                resultsArray.push(entry);\n            });\n        }\n    });\n    \n    // Push the original message\n    resultsArray.push(msg.extractMessage.item);\n\n    // Apply to the newMsg\n    newMsg.resultsArray = resultsArray;\n\n    // Send Message\n    node.send(newMsg);\n\n\n// Optionally, you can return null to prevent the original message from being passed to the next node\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 600,
+        "wires": [
+            [
+                "79223214381a0e94",
+                "6a4c7c8a5d485e67"
+            ]
+        ]
+    },
+    {
+        "id": "7e905be2ddbf209f",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "set payload",
+        "func": "let item = msg.extractMessage.item;\n\nconst oneWeekAgo = new Date(Date.now() - 12 * 7 * 24 * 60 * 60 * 1000); // 12 weeks ago\n\nconst GeneralBetsPipeline = [\n    {\n        $match: {\n            TimeStamp: {\n                $gte: oneWeekAgo,\n                $lt: new Date(),\n            },\n            $and: [\n                // Condition 1: Check if Item.GameNumber is the same\n                { GameNumber: { $eq: item.GameNumber } },\n                // Condition 1a: Check if Item.GameNumber is the same\n                { Sport: { $eq: item.Sport } },\n                // Condition 1b: Check if Item.GameNumber is the same\n                { League: { $eq: item.League } },\n                // Condition 2: Check if Item.Bet1.Book1 is different\n                { \"Bet1.Book1\": { $ne: item.Book1 } },\n                // Condition 3: Check if Item.Bet2.Book2 is different\n                { \"Bet2.Book2\": { $ne: item.Book2 } },\n                // Condition 4: Check Team 1\n                { \"Bet1.Team1\": { $ne: item.Team1 } },\n                // Condition 5: Check Team 2\n                { \"Bet2.Team2\": { $ne: item.Team2 } },\n                // Condition 6: Check if Bet1.BookNameAccountNameAssigned1 is different\n                { \"Bet1.BookNameAccountNameAssigned1\": { $ne: item.BookNameAccountName1 } },\n                // Condition 7: Check if Bet1.BookNameAccountNameAssigned2 is different\n                { \"Bet2.BookNameAccountNameAssigned2\": { $ne: item.BookNameAccountName2 } },\n                \n                // Condition 8: Check if Item.PointsDifference is equal or higher\n\n                // { PointsDifference: { $gt: item.PointsDifference } },\n                // Condition 5: Check if item.RoughSum is higher\n                // { PotentialProfit: { $gt: item.RoughSum } },\n            ],\n        },\n    },\n    {\n        $sort: {\n            GameNumber: -1,\n            LineType: -1,\n            Team1: -1,\n            Line1PriceAmML: -1,\n            Line1PointsAmFloat: -1,\n            TimeStamp: -1,\n        },\n    },\n    {\n        $limit: 1000,\n    },\n];\n\nmsg.payload = [GeneralBetsPipeline];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 600,
+        "wires": [
+            [
+                "a16a17c27bd71bd6",
+                "16001f67efa309e1",
+                "81f5f6ed3582f4a7"
+            ]
+        ]
+    },
+    {
+        "id": "5bd19c03c084c56e",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "output query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6a4c7c8a5d485e67",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "Split Message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "79223214381a0e94",
+        "type": "link out",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "SBCheck Ph1 : OUT : Transform1 : Split Messages > Line Type Sorter",
+        "mode": "link",
+        "links": [
+            "c99ea954399ff73e"
+        ],
+        "x": 1645,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c4b93446aa230ff6",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "EXTRACT : Receive POST",
+        "func": "// PRIOR TO SET FIELDS - COMING FROM RAWDBS\nvar idVar = msg.payload.message._id;\n\nmsg.extractMessage = {\n    announce: 'Received POST request at:',\n    timestamp: msg.timestamp,\n    _id: idVar,\n    item: msg.payload.message,\n};\n\n//1. Timestamp ----------------\n\n// GENERATE A TIMESTAMP (SPECIFIC TO PIPELINE)\n// Generate a timestamp for every incoming message\n\n\n// Retrieve the last stored message's timestamp\nvar lastTimestamp = flow.get(\"sortedBetsCheckConditions_lastTimestamp\") || 0;\n\n// Check if the incoming message is newer\nif (msg.timestamp > lastTimestamp) {\n    // Update the context with the new message payload and timestamp\n    flow.set(\"sortedBetsCheckConditions_rememberedPayload\", msg.payload);\n    flow.set(\"sortedBetsCheckConditions_lastTimestamp\", msg.timestamp);\n} else {\n    // Ignore the message, as it's older than what we have stored\n}\n\n//2. QUEUE ----------------\n\n// Retrieve the existing queue or initialize a new one\nvar messageQueue = flow.get(\"sortedBetsCheckConditions_messageQueue\") || [];\n\n// Add the incoming message to the queue\nmessageQueue.push({ payload: msg.payload});\n\n// Update the queue in the context\nflow.set(\"sortedBetsCheckConditions_messageQueue\", messageQueue);\n\n// Time limit in milliseconds (10 minutes)\nconst timeLimit = 10 * 60 * 1000; // 10 minutes * 60 seconds * 1000 milliseconds\n\n// Filter the queue to keep only messages from the last 10 minutes\nmessageQueue = messageQueue.filter(item => Date.now() - item.payload.timestamp <= timeLimit);\n\n// Save the updated queue back to the node context\nflow.set('sortedBetsCheckConditions_messageQueue', messageQueue);\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 600,
+        "wires": [
+            [
+                "7e905be2ddbf209f"
+            ]
+        ]
+    },
+    {
+        "id": "4ca12deadd3be409",
+        "type": "http in",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "name": "",
+        "url": "/SortedBetsCheckConditions",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 540,
+        "y": 540,
+        "wires": [
+            [
+                "c4b93446aa230ff6"
+            ]
+        ]
+    },
+    {
+        "id": "273cefe442d4e299",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "Debug COMPARE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1710,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "118cd677cd25eb05",
+        "type": "function",
+        "z": "5fa172c20f49443b",
+        "g": "803b92c8ed55dc13",
+        "name": "Load: Pack to HTTP",
+        "func": "\nvar incomingMessage = msg;\n\n\n//===================================\nmsg.statusCode = 200; // Set HTTP status code to 200 OK\nmsg.headers = {\n    \"Content-Type\": \"text/plain\" // Set Content-Type header to text/plain\n};\n// Skip the Sort\nmsg.payload = {\n    extractMessage: incomingMessage.extractMessage,\n    finalMessage: incomingMessage.transform2Message,\n    transform1Message: incomingMessage.transform1Message,\n    _msgid: incomingMessage._msgid\n};\n\nmsg.req = incomingMessage.req;\nmsg.res = incomingMessage.res;\n//========================\n// EXECUTION FUNCTIONS\n\nnode.send(msg);\nreturn null\n\n//\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 1060,
+        "wires": [
+            [
+                "75d6aaab0021d346",
+                "3bdb39087ef4d457"
+            ]
+        ]
+    },
+    {
+        "id": "75d6aaab0021d346",
+        "type": "debug",
+        "z": "5fa172c20f49443b",
+        "g": "803b92c8ed55dc13",
+        "name": "Debug RESPONSE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "3bdb39087ef4d457",
+        "type": "http response",
+        "z": "5fa172c20f49443b",
+        "g": "803b92c8ed55dc13",
+        "name": "HTTP RESP 2",
+        "statusCode": "",
+        "headers": {},
+        "x": 1720,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6c93cf3ab8ccd07f",
+        "type": "link out",
+        "z": "5fa172c20f49443b",
+        "g": "b7f2bcc8b657be27",
+        "name": "SBCheck Ph2: OUT :  > Load: Pack to HTTP",
+        "mode": "link",
+        "links": [
+            "62e4b98de6625a13"
+        ],
+        "x": 1785,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "62e4b98de6625a13",
+        "type": "link in",
+        "z": "5fa172c20f49443b",
+        "g": "803b92c8ed55dc13",
+        "name": "SBCheck Ph3 : IN : Compare > Load: Pack to HTTP",
+        "links": [
+            "6c93cf3ab8ccd07f"
+        ],
+        "x": 415,
+        "y": 1060,
+        "wires": [
+            [
+                "118cd677cd25eb05"
+            ]
+        ]
+    },
+    {
+        "id": "7f099d933bceb328",
+        "type": "comment",
+        "z": "5fa172c20f49443b",
+        "g": "b93dd9f1ed02b46a",
+        "name": "SortedBetsCheck : Full Pseudocode",
+        "info": "// 3. Check Bet POINTS & PROFIT 3 different ways: Middle, VigSplit, Arb\n    // Point Spread ; If Totals; If Moneyline\n    // If Line type x (PS & Totals) =  then calculate points ; line ; profit ; vig loss\n    // If Line type y (ML) = calculate line ; profit ; vig loss\n    //--- (DUPLICATE AND DO IT TWICE TO BOTH PASSED AND COMPARE)\n    // filter by Sports\n    // if sports ; check the min and max, get the gap percentage\n    // line ; how much gap.\n\n//--------\n// Make a function also to calculate if it's a high Vigsplit.\n// Middle / Vigsplit / Arb / Moneyline\n\n// 4. Filter 5% or more / Filter 0 risk profit\n    // cut out vig loss > 5%\n    // Filter out 0 risk > Profit #\n\n//--------\n// 5. Check if x or y higher\n// 6. only push if higher 5% threshhold than highest bets in 2 categories.\n\n//================================\n// Later : Do a line scanner.\n// 10. QUERY MONGO, Slap a credit stop loss limit for accounts \n// 11. COME OUT WITH 1 or 2 bets arrays - use same books, different accounts(middle & vigsplit)\n\nmsg.payload = SportsSettingsVar;\nreturn msg;",
+        "x": 530,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a9efc5167470cd12",
+        "type": "mongodb4",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "clientNode": "14d05059c9c5dcb2",
+        "mode": "collection",
+        "collection": "stakeSettings",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "",
+        "handleDocId": false,
+        "name": "stakeSettings.find.toArray",
+        "x": 1170,
+        "y": 340,
+        "wires": [
+            [
+                "97dedff557300f31"
+            ]
+        ]
+    },
+    {
+        "id": "a16a17c27bd71bd6",
+        "type": "mongodb4",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "clientNode": "14d05059c9c5dcb2",
+        "mode": "collection",
+        "collection": "sortedBets",
+        "operation": "aggregate",
+        "output": "toArray",
+        "maxTimeMS": "",
+        "handleDocId": false,
+        "name": "sortedBets.aggregate.toArray",
+        "x": 920,
+        "y": 660,
+        "wires": [
+            [
+                "3849cc7df492b362",
+                "5bd19c03c084c56e"
+            ]
+        ]
+    },
+    {
+        "id": "16001f67efa309e1",
+        "type": "mongodb4",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "clientNode": "14d05059c9c5dcb2",
+        "mode": "collection",
+        "collection": "inProgressBets",
+        "operation": "aggregate",
+        "output": "toArray",
+        "maxTimeMS": "",
+        "handleDocId": false,
+        "name": "inProgressBets.aggregate.toArray",
+        "x": 940,
+        "y": 600,
+        "wires": [
+            [
+                "3849cc7df492b362"
+            ]
+        ]
+    },
+    {
+        "id": "81f5f6ed3582f4a7",
+        "type": "mongodb4",
+        "z": "5fa172c20f49443b",
+        "g": "dd2f628224cbb4c3",
+        "clientNode": "14d05059c9c5dcb2",
+        "mode": "collection",
+        "collection": "completedBets",
+        "operation": "aggregate",
+        "output": "toArray",
+        "maxTimeMS": "",
+        "handleDocId": false,
+        "name": "completedBets.aggregate.toArray",
+        "x": 940,
+        "y": 560,
+        "wires": [
+            [
+                "3849cc7df492b362"
+            ]
+        ]
+    },
+    {
+        "id": "fa59f6c4d6ce4b69",
+        "type": "mongodb4",
+        "z": "5fa172c20f49443b",
+        "g": "db1664ca19e007e4",
+        "clientNode": "14d05059c9c5dcb2",
+        "mode": "collection",
+        "collection": "sportsSettings",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "sportsSettings.find.toArray",
+        "x": 1180,
+        "y": 260,
+        "wires": [
+            [
+                "ce4d24263c44e46c"
+            ]
+        ]
+    },
+    {
+        "id": "272b6d76a23994ba",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "EXTRACT : Receive POST",
+        "func": "// PRIOR TO SET FIELDS - COMING FROM RAWDBS\nlet incomingMessage = msg;\n\nmsg.extractMessage = {\n    announce: 'Received POST request at:',\n    timestamp: msg.timestamp,\n    originalMessage: msg.payload,\n};\n\nmsg.scraped_bet = {\n    scraped_line: incomingMessage.payload.scrapeResults.scraped_line,\n    scraped_points: incomingMessage.payload.scrapeResults.scraped_points,\n    scraped_odds: incomingMessage.payload.scrapeResults.scraped_odds,\n    scraped_lineType: incomingMessage.payload.scrapeResults.scraped_linetype, // Note the lowercase 't' in 'linetype'\n    scraped_game_number: incomingMessage.payload.scrapeResults.scraped_game_number,\n    scraped_team: incomingMessage.payload.scrapeResults.scraped_team,\n    scraped_sport: incomingMessage.payload.scrapeResults.scraped_sport,\n    scraped_timestamp: incomingMessage.payload.scrapeResults.scraped_timestamp\n};\n\nmsg.fullMessage = incomingMessage.payload.fullBet;\n\n//1. Timestamp ----------------\n\n// GENERATE A TIMESTAMP (SPECIFIC TO PIPELINE)\n// Generate a timestamp for every incoming message\n\n\n// Retrieve the last stored message's timestamp\nvar lastTimestamp = flow.get(\"BetInputCheck_lastTimestamp\") || 0;\n\n// Check if the incoming message is newer\nif (msg.timestamp > lastTimestamp) {\n    // Update the context with the new message payload and timestamp\n    flow.set(\"BetInputCheck_rememberedPayload\", msg.payload);\n    flow.set(\"BetInputCheck_lastTimestamp\", msg.timestamp);\n} else {\n    // Ignore the message, as it's older than what we have stored\n}\n\n//2. QUEUE ----------------\n\n// Retrieve the existing queue or initialize a new one\nvar messageQueue = flow.get(\"BetInputCheck_messageQueue\") || [];\n\n// Add the incoming message to the queue\nmessageQueue.push({ payload: msg.payload});\n\n// Update the queue in the context\nflow.set(\"BetInputCheck_messageQueue\", messageQueue);\n\n// Time limit in milliseconds (10 minutes)\nconst timeLimit = 10 * 60 * 1000; // 10 minutes * 60 seconds * 1000 milliseconds\n\n// Filter the queue to keep only messages from the last 10 minutes\nmessageQueue = messageQueue.filter(item => Date.now() - item.payload.timestamp <= timeLimit);\n\n// Save the updated queue back to the node context\nflow.set('BetInputCheck_messageQueue', messageQueue);\n\ndelete msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 300,
+        "wires": [
+            [
+                "f4d0bfed3d6727e6",
+                "5f817b78b5dfe714"
+            ]
+        ]
+    },
+    {
+        "id": "3b7490b20fbb7087",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "output response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bd4fd4d1e09d770b",
+        "type": "http response",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "HTTP RESP 0",
+        "statusCode": "",
+        "headers": {},
+        "x": 1360,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "74c06399d74963b0",
+        "type": "link out",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": " BetInputCheck Ph1 : OUT : Transform1 : Split Messages > Line Type Sorter",
+        "mode": "link",
+        "links": [
+            "6d7830c85b50c511"
+        ],
+        "x": 1365,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f4d0bfed3d6727e6",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "Debug POST",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5f817b78b5dfe714",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "EXTRACT 2: Wait for 2 Bets",
+        "func": "var incomingMessage = msg;\nvar betIDVar = msg.fullMessage._id;\nvar resultCounter = 2;\nvar tenPercentStake = 10;\nvar vigMax = 5;\nvar arbPercentageRangeMin = 4;\nvar vigSplitRangeMin = 15;\nvar moneylineRangeMin = 21;\n\n\n//===================================\n// 1. BUFFER FUNCTIONS\nfunction updateBufferWithIncomingMessage(incomingMessage) {\n    // Initialize a buffer object if it doesn't exist\n    if (!context.get(\"buffer\")) {\n        context.set(\"buffer\", {});\n    }\n\n    // Initialize a timeout object to keep track of message timeouts\n    if (!context.get(\"timeouts\")) {\n        context.set(\"timeouts\", {});\n    }\n\n    // Retrieve the buffer and timeouts objects\n    let buffer = context.get(\"buffer\");\n    let timeouts = context.get(\"timeouts\");\n    const timeoutDuration = 60000; // Timeout duration in milliseconds (1 minute)\n\n    // Extract the message ID from the incoming message\n    var betIDVar = incomingMessage.fullMessage._id;\n\n    // Ensure buffer entry exists for the current message ID and initialize it as an empty array if it doesn't\n    if (!buffer[betIDVar]) {\n        buffer[betIDVar] = {};\n        buffer[betIDVar].messages = [];\n    }\n\n    // Add the incoming message to the buffer array for this betIDVar\n    buffer[betIDVar].messages.push(incomingMessage);\n\n    // Persist the updated buffer\n    context.set(\"buffer\", buffer);\n\n    // Return the relevant variables for use outside the function\n    return {\n        buffer, // Updated buffer object\n        timeouts, // Updated timeouts object\n        betIDVar // The message ID variable\n    };\n}\n\n// Call the function to update the buffer with the incoming message and capture the returned values\nvar { buffer, timeouts, betIDVar } = updateBufferWithIncomingMessage(incomingMessage);\n\n// Now `buffer`, `timeouts`, and `betIDVar` are available for use outside the function.\n\n// Assuming cleanupBuffer function is implemented elsewhere\nfunction cleanupBuffer(betIDVar) {\n    let buffer = context.get(\"buffer\");\n    let timeouts = context.get(\"timeouts\");\n\n    delete buffer[betIDVar];\n    context.set(\"buffer\", buffer);\n\n    if (timeouts[betIDVar]) {\n        clearTimeout(timeouts[betIDVar]);\n        delete timeouts[betIDVar];\n        context.set(\"timeouts\", timeouts);\n    }\n}\n//============================================\n// 2. SORTING FUNCTIONS\n// General function to extract and sort messages by a specified property path\n\n//========================\n// 3. EXECUTION FUNCTIONS\n\n// Function to check for messages with a similar fullMessage._id, the same scraped_lineType, and matching team in the buffer\nfunction checkForSimilarity({ betIDVar, incomingMessage }) {\n    // Destructure incomingMessage for easier comparison\n    const {\n        fullMessage: { _id: fullMessageID },\n        scraped_bet: { scraped_lineType: lineType, scraped_timeStamp: timeStamp }\n    } = incomingMessage;\n\n    node.log(fullMessageID);\n    \n    // Filter messages in the buffer for the same betIDVar\n    let similarMessages = buffer[betIDVar].messages.filter(message =>\n        message.fullMessage && message.fullMessage._id === fullMessageID &&\n        message.scraped_bet.scraped_lineType === lineType &&\n        message.scraped_bet.scraped_timeStamp === timeStamp\n    );\n\n    if (similarMessages.length == 2) {\n        // Assuming `node`, `timeouts`, `context`, are available in the scope\n        node.log(\"Found similar message(s) with the same fullMessage._id, scraped_lineType, and team.\");\n        processSimilarMessages({node, similarMessages, betIDVar, timeouts, context});\n    } else {\n        node.log(\"No similar message found with matching criteria.\");\n    }\n}\n\nfunction processSimilarMessages({node, similarMessages, betIDVar, timeouts, context}) {\n    clearTimeout(timeouts[betIDVar]);\n    context.set(\"timeouts\", timeouts);\n\n    var newMsg = {...similarMessages[0]}; // Consider starting with an empty object or predefined structure\n\n    // Example of processing multiple messages, adjust according to actual requirements\n    similarMessages.forEach((message, index) => {\n        const details = {...message.scraped_bet};\n        newMsg[`scraped_bet_${index + 1}`] = details; // Dynamically name as scraped_bet_1, scraped_bet_2, etc.\n        newMsg[`scraped_bet_${index + 1}`]['req'] = message.req;\n        newMsg[`scraped_bet_${index + 1}`]['res'] = message.res;         \n    });\n    delete newMsg.scraped_bet;\n//    delete newMsg.req;    \n//    delete newMsg.res;    \n    \n    node.send(newMsg);\n    cleanupBuffer(betIDVar);        \n}\n\ncheckForSimilarity({ betIDVar, incomingMessage });",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            [
+                "74c06399d74963b0",
+                "fb5587b589c5cd32"
+            ]
+        ]
+    },
+    {
+        "id": "fb5587b589c5cd32",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "Debug 2 Bets",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "24c74fc74752908c",
+        "type": "websocket in",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "/ws/BetInputCheck",
+        "server": "df8a615d6d2cd2e7",
+        "client": "",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "054adb80f90a06e5"
+            ]
+        ]
+    },
+    {
+        "id": "054adb80f90a06e5",
+        "type": "json",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "3b7490b20fbb7087",
+                "272b6d76a23994ba"
+            ]
+        ]
+    },
+    {
+        "id": "9d42e07bd472374f",
+        "type": "comment",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Outputs one at a time",
+        "info": "",
+        "x": 400,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "aab5da598ff97b79",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Transform 1: LineType Sorter",
+        "func": "var incomingMessage = msg;\n//--------------------------------------\n// OUTPUT TO LINE TYPE CALCULATORS\n// Define output names and their corresponding indexes\nconst outputMapping = {\n    \"POINTSPREAD\": 0,\n    \"TOTAL\": 1,\n    \"MONEYLINE\": 2,\n    // Add more output names and indexes as needed\n};\n\nlet outputIndex;\n\nfunction outputMappedSend(currentResult, outputIndex) {\n    // Create an array to store messages for each output, initialized with null values\n    const outputs = Array(Object.keys(outputMapping).length).fill(null);\n\n\n    // Construct a new message object for the output\n    var outputMessage = {\n        req: incomingMessage.req, // Spread operator to copy existing msg properties\n        res: incomingMessage.res,\n        transform1Message: currentResult,\n        extractMessage: incomingMessage.extractMessage,\n        fullMessage: incomingMessage.fullMessage\n    };\n    delete outputMessage.transform1Message.extractMessage;\n    delete outputMessage.transform1Message.extractMessage;\n    delete outputMessage.transform1Message.req;\n    delete outputMessage.transform1Message.res;\n\n\n\n\n    // Ensure the extractMessage doesn't carry over unnecessary properties\n    if (outputMessage.extractMessage) {\n        //        delete outputMessage.transform1Message.extractMessage;\n    }\n\n    // Assign the new message to the appropriate output based on the index\n    outputs[outputIndex] = outputMessage;\n\n    // Send the messages. Only the targeted output index will have a non-null message.\n    node.send([outputs]);\n}\n\n//------------\n//SWITCH\n\nlet currentResult = incomingMessage;\n\n// Determine the index of the desired output based on the LineType\n// CRITICAL: Check message structure before accessing LineType\nlet lineType;\nif (incomingMessage.scrapeResults && incomingMessage.scrapeResults.scraped_lineType) {\n    lineType = incomingMessage.scrapeResults.scraped_lineType;\n} else if (incomingMessage.scraped_bet_1 && incomingMessage.scraped_bet_1.scraped_lineType) {\n    lineType = incomingMessage.scraped_bet_1.scraped_lineType;\n} else if (incomingMessage.transform1Message && incomingMessage.transform1Message.scraped_lineType) {\n    lineType = incomingMessage.transform1Message.scraped_lineType;\n} else {\n    node.warn('Unknown LineType: No lineType found in message structure');\n    node.warn('Available message keys:', Object.keys(incomingMessage));\n    return;\n}\n\nswitch (lineType) {\n    case 'POINTSPREAD':\n        outputIndex = outputMapping[\"POINTSPREAD\"];\n        outputMappedSend(currentResult, outputIndex);\n        break;\n    case 'TOTAL':\n        outputIndex = outputMapping[\"TOTAL\"];\n        outputMappedSend(currentResult, outputIndex);\n        break;\n    case 'MONEYLINE':\n        outputIndex = outputMapping[\"MONEYLINE\"];\n        outputMappedSend(currentResult, outputIndex);\n        break;\n    default:\n        // Handle default case (optional)\n        node.warn('Unknown LineType: ', incomingMessage);\n}",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "b4dca9fd7958c13f",
+                "12551b69148dc875"
+            ],
+            [
+                "18ee888a0e0c3587"
+            ],
+            [
+                "740d874372634aa9"
+            ]
+        ],
+        "outputLabels": [
+            "POINTSPREAD",
+            "TOTAL",
+            "MONEYLINE"
+        ]
+    },
+    {
+        "id": "6d7830c85b50c511",
+        "type": "link in",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": " BetInputCheck Ph2: IN : Transform1 : Split Messages > Line Type Sorter",
+        "links": [
+            "74c06399d74963b0"
+        ],
+        "x": 75,
+        "y": 600,
+        "wires": [
+            [
+                "aab5da598ff97b79"
+            ]
+        ]
+    },
+    {
+        "id": "b4dca9fd7958c13f",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Transform 1: Pointspread",
+        "func": "// 3. Check Bet \n    // If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n    // If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n    // Then calculate line ; vig ; outcomes\n    // Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n    // Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform1Message = incomingMessageVar.transform1Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform1Message.scraped_bet_1['scraped_sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n        \n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n        \n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n    \n    return result;\n}\n\n// Function to convert scraped_points to an integer if it is a string\nfunction convertScrapedPoints(betKey) {\n    let scrapedPoints = transform1Message[betKey].scraped_points;\n    if (typeof scrapedPoints === 'string') {\n        scrapedPoints = parseInt(scrapedPoints, 10); // Convert to integer with base 10\n    }\n    transform1Message[betKey].scraped_points = scrapedPoints;\n}\n\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    //REPLACE HERE\n    convertScrapedPoints('scraped_bet_1');\n    convertScrapedPoints('scraped_bet_2');\n    main.PointspreadPointsDifference = transform1Message['scraped_bet_1'].scraped_points + transform1Message['scraped_bet_2'].scraped_points;\n\n    node.log(SportsSettingsVar);\n    main.PointspreadRangeMin = SportsSettingsVar[main.sport].PointspreadRangeMin;\n    main.PointspreadRangeMax = SportsSettingsVar[main.sport].PointspreadRangeMax;\n\n    // Calculate Range Rating\n    main.PointspreadPointsDifferenceRating = main.PointspreadPointsDifference / main.PointspreadRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n    \n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n    \n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        // REPLACE HERE\n        main.line[i] = transform1Message[`scraped_bet_${i}`];        \n        main.line[i].lineValue = transform1Message[`scraped_bet_${i}`][`scraped_odds`];\n\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win; \n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;            \n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n    \n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n    \n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n    \n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n \n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n    \n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n    \n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.PointspreadPointsDifference >= main.PointspreadRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MIDDLEBET\";\n    }   \n    // B: If Arb Less than Range min & greater than 0\n    else if (main.PointspreadPointsDifference < main.PointspreadRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15){\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.PointspreadPointsDifference < main.PointspreadRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else{\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\"){\n        main.line[1].stake = globalStake; \n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\"){\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1/100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2/100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform1Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 7,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "b753d113f1e07d62",
+                "aa6c72150d31fb90"
+            ]
+        ]
+    },
+    {
+        "id": "12551b69148dc875",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Debug PspreadSorter",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "18ee888a0e0c3587",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Transform 1: Totals",
+        "func": "// 3. Check Bet \n// If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n// If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n// Then calculate line ; vig ; outcomes\n// Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n// Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform1Message = incomingMessageVar.transform1Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform1Message['Sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n\n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n\n    return result;\n}\n\n// Function to convert scraped_points to an integer if it is a string\nfunction convertScrapedPoints(betKey) {\n    let scrapedPoints = transform1Message[betKey].scraped_points;\n    if (typeof scrapedPoints === 'string') {\n        scrapedPoints = parseInt(scrapedPoints, 10); // Convert to integer with base 10\n    }\n    transform1Message[betKey].scraped_points = scrapedPoints;\n}\n\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    // REPLACE HERE\n    convertScrapedPoints('scraped_bet_1');\n    convertScrapedPoints('scraped_bet_2');\n    main.TotalsPointsDifference = transform1Message['scraped_bet_1'].scraped_points + transform1Message['scraped_bet_2'].scraped_points;\n\n    main.TotalsRangeMin = SportsSettingsVar[main.sport].TotalsRangeMin;\n    main.TotalsRangeMax = SportsSettingsVar[main.sport].TotalsRangeMax;\n\n    // Calculate Range Rating\n    main.TotalsPointsDifferenceRating = main.TotalsPointsDifference / main.TotalsRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        // REPLACE HERE\n        main.line[i] = transform1Message[`scraped_bet_${i}`];\n        main.line[i].lineValue = transform1Message[`scraped_bet_${i}`][`scraped_odds`];\n\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win;\n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n\n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n\n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n\n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n\n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.TotalsPointsDifference >= main.TotalsRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MIDDLEBET\";\n    }\n    // B: If Arb Less than Range min & greater than 0\n    else if (main.TotalsPointsDifference < main.TotalsRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15) {\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.TotalsPointsDifference < main.TotalsRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else {\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\") {\n        main.line[1].stake = globalStake;\n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\") {\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1 / 100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2 / 100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform1Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 7,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 620,
+        "wires": [
+            [
+                "aa6c72150d31fb90"
+            ]
+        ]
+    },
+    {
+        "id": "740d874372634aa9",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Transform 1: Moneyline",
+        "func": "// 3. Check Bet \n// If Point Spread (By Sports); If Totals (By Sports); If Moneyline \n// If Line type x (PS & Totals) or (ML) =  then calculate points ; line ; profit ; vig loss\n// Then calculate line ; vig ; outcomes\n// Then Profit & Bet Type : Middle ; Vigsplit ; Arb\n// Then Compare Risk / Profit (LATER)\n\nvar incomingMessageVar = msg;\nvar SportsSettingsVar = context.global.get('SportsSettings');\nvar transform1Message = incomingMessageVar.transform1Message;\nvar main = {};\nvar vigMax = 5;\nvar globalStake = 100;\nvar arbMin = .05;\nvar arbMax = .07;\n\n\nmain.sport = transform1Message['Sport'];\n\n// Initialize arrays to hold values for each line\nmain.line = {};\n\n//-----\n//SUBFUNCTIONS\nfunction americanToDecimal(americanOdds) {\n    // Ensure americanOdds is a number\n    americanOdds = parseFloat(americanOdds);\n\n    // Check if americanOdds is a valid number\n    if (isNaN(americanOdds)) {\n        throw new Error(\"Invalid input. Please provide a valid number for American odds.\");\n    }\n\n    // Convert American odds to decimal odds\n    let decimalOdds;\n    if (americanOdds >= 100) {\n        decimalOdds = (americanOdds / 100) + 1;\n    } else {\n        decimalOdds = (100 / Math.abs(americanOdds)) + 1;\n    }\n\n    return decimalOdds.toFixed(3); // Round to 3 decimal places for precision\n}\n\nfunction calculateArbitrage(oddsOutcome1, oddsOutcome2, globalStake) {\n    let line1Value = americanToDecimal(oddsOutcome1);\n    let line2Value = americanToDecimal(oddsOutcome2);\n\n\n    // Convert string to float for safety\n    oddsOutcome1 = parseFloat(line1Value);\n    oddsOutcome2 = parseFloat(line2Value);\n\n    // Determine the lowest odds and calculate stakes\n    let riskForLowestOdds = globalStake; // The stake for the outcome with the lowest odds is set to $100\n    let lowestOdds = Math.min(oddsOutcome1, oddsOutcome2);\n    let highestOdds = Math.max(oddsOutcome1, oddsOutcome2);\n\n\n    // Calculate Arbitrage Percentage\n    let arbPercentageTotal = (1 / oddsOutcome1 + 1 / oddsOutcome2) * 100;\n\n    let result = {}; // Initialize the result object\n\n    // Determine If There Is an Arbitrage Opportunity\n    if (arbPercentageTotal < 100) {\n        // Adjust the other stake proportionally to maintain arbitrage\n        let riskOnHighestOdds = (lowestOdds / highestOdds) * riskForLowestOdds;\n\n        // Round stakes to the nearest dollar\n        let roundedRiskOnLowestOdds = Math.round(riskForLowestOdds);\n        let roundedRiskOnHighestOdds = Math.round(riskOnHighestOdds);\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let totalRoundedStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate total required stake to maintain arbitrage proportions\n        let ArbTotalStake = roundedRiskOnLowestOdds + roundedRiskOnHighestOdds;\n\n        // Calculate potential returns for each bet\n        let returnOnLowestOdds = roundedRiskOnLowestOdds * lowestOdds;\n        let returnOnHighestOdds = roundedRiskOnHighestOdds * highestOdds;\n\n        // Calculate profits for each outcome by subtracting the total stake from the returns of each outcome\n        let ArbProfit1 = returnOnLowestOdds - ArbTotalStake;\n        let ArbProfit2 = returnOnHighestOdds - ArbTotalStake;\n\n\n        // Populate the result object with values\n        result.ArbOpportunity = true;\n        result.ArbPercentage = 100 - arbPercentageTotal.toFixed(2);\n        result.ArbBetOnOutcome1 = roundedRiskOnLowestOdds.toFixed(2);\n        result.ArbBetOnOutcome2 = roundedRiskOnHighestOdds.toFixed(2);\n        result.ArbTotalStake = totalRoundedStake.toFixed(2);\n        result.ArbProfit1 = ArbProfit1.toFixed(2);\n        result.ArbProfit2 = ArbProfit2.toFixed(2);\n\n    } else {\n        // Indicate no arbitrage opportunity in the result object\n        result.ArbOpportunity = false;\n        result.message = \"No Arbitrage Opportunity.\";\n    }\n\n    return result;\n}\n\n// Function to convert scraped_points to an integer if it is a string\nfunction convertScrapedPoints(betKey) {\n    let scrapedPoints = transform1Message[betKey].scraped_points;\n    if (typeof scrapedPoints === 'string') {\n        scrapedPoints = parseInt(scrapedPoints, 10); // Convert to integer with base 10\n    }\n    transform1Message[betKey].scraped_points = scrapedPoints;\n}\n//-----\n// MAIN CALCULATIONS\nfunction calculatePointsRange() {\n    // Filter Range by Sports\n    // Calculate Limits\n    //REPLACE HERE\n    convertScrapedPoints('scraped_bet_1');\n    convertScrapedPoints('scraped_bet_2');\n    main.MoneylineDifference = transform1Message['scraped_bet_1'].scraped_points + transform1Message['scraped_bet_2'].scraped_points\n\n    main.MoneylineRangeMin = SportsSettingsVar[main.sport].MoneylineRangeMin;\n    main.MoneylineRangeMax = SportsSettingsVar[main.sport].MoneylineRangeMax;\n\n    // Calculate Range Rating\n    main.MoneylineDifferenceRating = main.MoneylineDifference / main.MoneylineRangeMax;\n\n    return\n}\n\nfunction calculateLineDifference() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n    main.line = {};\n\n    // Iterate over each line\n    for (let i = 1; i <= 2; i++) {\n        // REPLACE HERE\n        main.line[i] = transform1Message[`scraped_bet_${i}`];\n        main.line[i].lineValue = transform1Message[`scraped_bet_${i}`][`scraped_odds`];\n\n        if (main.line[i].lineValue < 0) {\n            main.line[i].Risk = Math.abs(main.line[i].lineValue);\n            main.line[i].Win = 100;\n            main.line[i].Takeback = Math.abs(main.line[i].lineValue) + main.line[i].Win;\n            main.line[i].Lose = Math.abs(main.line[i].lineValue);\n            main.line[i].Vig = Math.abs(main.line[i].lineValue) - main.line[i].Win;\n        } else if (main.line[i].lineValue > 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = main.line[i].lineValue;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        } else if (main.line[i].lineValue === 0) {\n            main.line[i].Risk = 100;\n            main.line[i].Win = 100;\n            main.line[i].Takeback = main.line[i].Risk + main.line[i].Win;\n            main.line[i].Lose = main.line[i].Risk;\n            main.line[i].Vig = 0;\n        }\n\n    }\n    main.totalTakeback = main.line[1].Takeback + main.line[2].Takeback;\n    return\n}\n\nfunction calculateOutcomes() {\n    // Cases : Middle = Loss / Push\n    // -120 +140\n    // Pay 120 to win 100 / Pay 100 to win 140\n    // W1:-$0; L1:+$20 | W2:+$20; L2:$0\n\n    // +100 +120\n    // Pay 100 to win 100 / Pay 120 to win 140\n    // W1:+$0; L1:+$20 | W2:+$20; L2:+$0\n\n    // -110 -120\n    // Pay 110 to win 100 / Pay 120 to win 120\n    // W1:-$20; L1:-$10 | W2:-$10; L2:-$20  = DROP\n\n    main.W1 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L1 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.W2 = main.line[2].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.L2 = main.line[1].Takeback - main.line[1].Risk - main.line[2].Risk;\n    main.TotalVig = main.line[1].Vig + main.line[2].Vig;\n    return\n}\n\nfunction calculateBetType() {\n    // Middle / Vigsplit / Arb\n    // is it a good middle?\n    // is it a + vigsplit and - spread?\n    // is it a + 5% arb with low outlay?\n\n    // TO DO : \n    // 1. Calculate Arb\n    let risk = 100;\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, risk);\n\n    // 2. Calculate VigSplit\n    main.line1VSP = main.line[1].Win - main.line[1].Risk;\n    main.line2VSP = main.line[2].Win - main.line[2].Risk;\n    main.vigSplitProfit = main.line1VSP + main.line2VSP;\n    main.vigSplitProfitRate = main.vigSplitProfit / (main.line[1].Risk + main.line[2].Risk)\n    main.vigSplitTotalRisk = main.line[1].Risk + main.line[2].Risk;\n\n    // A: If high middle, take as middle\n    if (main.MoneylineDifference >= main.MoneylineRangeMin\n        && main.TotalVig <= vigMax) {\n        main.BetType = \"MONEYLINEBET\";\n    }\n    // B: If Arb Less than Range min & greater than 0\n    else if (main.MoneylineDifference < main.MoneylineRangeMin\n        && main.arbResults.ArbPercentage >= .05\n        && main.arbResults.ArbPercentage <= .15) {\n        main.BetType = \"ARBBET\";\n        //Take it.\n    }\n    // C: VIGSPLIT LAST RESORT : If less then Range Min & less than 5% Arb & more than 15\n    else if (main.MoneylineDifference < main.MoneylineRangeMin\n        && main.arbResults.ArbPercentage < .05 && main.arbResults.vigSplitProfit > 15) {\n        main.BetType = \"VIGSPLITBET\";\n        //Take it.\n    }\n    else {\n        main.BetType = false;\n    }\n\n    return\n}\n\nfunction calculateStake(globalStake) {\n\n    main.arbResults = calculateArbitrage(main.line[1].lineValue, main.line[2].lineValue, globalStake);\n    if (main.BetType == \"MIDDLEBET\") {\n        main.line[1].stake = globalStake;\n        main.line[2].stake = globalStake;\n    }\n    else if (main.BetType == \"ARBITRAGEBET\") {\n        main.line[1].stake = (main.arbResults.ArbBetOnOutcome1 / 100) * globalStake;\n        main.line[2].stake = (main.arbResults.ArbBetOnOutcome2 / 100) * globalStake;\n    }\n    if (main.BetType == \"VIGSPLITBET\") {\n        main.line[1].stake = (main.line[1].risk / 100) * globalStake;\n        main.line[2].stake = (main.line[2].risk / 100) * globalStake;\n    }\n}\n//-----\n// EXECUTE\ncalculatePointsRange();\ncalculateLineDifference();\ncalculateOutcomes();\ncalculateBetType();\ncalculateStake(globalStake);\n\n//------\n// CONFIGURE MESSAGE\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.extractMessage = msg.extractMessage;\nmsg.transform1Message = incomingMessageVar.transform1Message;\nmsg.transformResults = main;\nmsg.req = incomingMessageVar.req;\nmsg.res = incomingMessageVar.res;\n\nfor (const [key, value] of Object.entries(msg.transformResults)) {\n    msg.transform1Message[key] = value;\n}\n\nnode.send(msg);\n\n// return msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 7,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 660,
+        "wires": [
+            [
+                "aa6c72150d31fb90"
+            ]
+        ]
+    },
+    {
+        "id": "b753d113f1e07d62",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Debug PSpread",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "aa6c72150d31fb90",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Transform 1: Comparative Bets",
+        "func": "\nvar incomingMessage = msg;\nvar betIDVar = msg._msgid;\nvar resultCounter = 1\nvar main = {};\nvar tenPercentStake = 10;\nvar vigMax = 5;\nvar arbPercentageRangeMin = 4;\nvar vigSplitRangeMin = 15;\nvar moneylineRangeMin = 21;\n\n//===================================\n// 1. BUFFER FUNCTIONS\nfunction updateBufferWithIncomingMessage(incomingMessage) {\n    // Initialize a buffer object if it doesn't exist\n    if (!context.get(\"buffer\")) {\n        context.set(\"buffer\", {});\n    }\n\n    // Initialize a timeout object to keep track of message timeouts\n    if (!context.get(\"timeouts\")) {\n        context.set(\"timeouts\", {});\n    }\n\n    // Retrieve the buffer and timeouts objects\n    let buffer = context.get(\"buffer\");\n    let timeouts = context.get(\"timeouts\");\n    const timeoutDuration = 60000; // Timeout duration in milliseconds (1 minute)\n\n    // Extract the message ID from the incoming message\n    var betIDVar = incomingMessage.fullMessage._id;\n\n    // Ensure buffer entry exists for the current message ID and initialize it as an empty array if it doesn't\n    if (!buffer[betIDVar]) {\n        buffer[betIDVar] = {};\n        buffer[betIDVar].messages = [];\n    }\n\n    // Add the incoming message to the buffer array for this betIDVar\n    buffer[betIDVar].messages.push(incomingMessage);\n\n    // Persist the updated buffer\n    context.set(\"buffer\", buffer);\n\n    // Return the relevant variables for use outside the function\n    return {\n        buffer, // Updated buffer object\n        timeouts, // Updated timeouts object\n        betIDVar // The message ID variable\n    };\n}\n\n// Call the function to update the buffer with the incoming message and capture the returned values\nvar { buffer, timeouts, betIDVar } = updateBufferWithIncomingMessage(incomingMessage);\n\n// Now `buffer`, `timeouts`, and `betIDVar` are available for use outside the function.\n\n// Assuming cleanupBuffer function is implemented elsewhere\nfunction cleanupBuffer(betIDVar) {\n    let buffer = context.get(\"buffer\");\n    let timeouts = context.get(\"timeouts\");\n\n    delete buffer[betIDVar];\n    context.set(\"buffer\", buffer);\n\n    if (timeouts[betIDVar]) {\n        clearTimeout(timeouts[betIDVar]);\n        delete timeouts[betIDVar];\n        context.set(\"timeouts\", timeouts);\n    }\n}\n\n//=========================\n// CALCULATION FUNCTIONS\n// 4. figure out which is the original message\n    // a. if IncomingMessage._id = extractMessage._id\n    // b. if extractMessage._id bet Type == middle, arb, vigsplit \n    // c. compare vigsplit, arb, middle as +10% profit of the highest one (if doesn't exist, take it)\n    // d. check against final gating conditions of profitability.\n    // e. mark as SameGame = Clear\n\n// General function to extract and sort messages by a specified property path\nfunction extractAndSortByProperty(messages, propertyPath) {\n    // Split the property path into parts for nested properties\n    const pathParts = propertyPath.split('.');\n\n    // Map and extract the specified property value, handling nested properties\n    const extractedValues = messages.map((message, index) => {\n        let value = message.transform1Message;\n        for (const part of pathParts) {\n            value = value ? value[part] : undefined;\n        }\n        return { messageIndex: index, value };\n    });\n\n    // Filter out any undefined values that may not exist for the specified property\n    const filteredValues = extractedValues.filter(item => item.value !== undefined);\n\n    // Sort the filtered array by the specified property in descending order\n    filteredValues.sort((a, b) => b.value - a.value);\n\n    return filteredValues;\n}\n\n\nfunction calculateComparison(){\n// Calculate Within  PointSpread , Totals, Moneyline\n    // a. if IncomingMessage._id = extractMessage._id\n    // b. if extractMessage._id bet Type == middle, arb, vigsplit\n    // c. compare vigsplit, arb, middle as +10% profit of the highest one (if doesn't exist, take it)\n    // d. check against final gating conditions of profitability.\n    // e. mark as SameGame = Clear\n\n    // -------------------\n\n    // Check if the incomingMessage.transform1Message is the main bet to compare all results\n    if (incomingMessage.transform1Message && incomingMessage.transform1Message._id == incomingMessage.extractMessage._id){\n        // Set Bet Type\n        main.BetType = incomingMessage.transform1Message.BetType; \n    }\n\n    // A: If MIDDLEBET\n    if (main.BetType == \"MIDDLEBET\"){\n\n        // Filter results by BetType\n        let middleBetMessages = buffer[betIDVar].messages.filter(message =>\n            message.transform1Message && message.transform1Message.BetType === \"MIDDLEBET\"\n        );\n        // Check if it doesn't exist\n        if (middleBetMessages.length <= 0){\n            main.SameGame = \"Clear\";\n        }\n        // If it exists, compare        \n        else{\n            // Example: Sort by 'PointspreadPointsDifference'\n            let sortedByPointspread = extractAndSortByProperty(buffer[betIDVar].messages, 'PointspreadPointsDifference');\n\n            // Check if Points / Profit Margin is high enough\n            if (incomingMessage.transform1Message.PointspreadPointsDifference > sortedByPointspread[0])\n            {\n                // If so , mark it clear\n                main.SameGame = \"Clear\";\n            } else {\n                // If not , mark it unclear\n                main.SameGame = \"Unclear\";\n            }\n        }\n    }\n    // B: If ARBBET\n    if (main.BetType == \"ARBBET\") {\n       \n        // Filter results by BetType\n        let arbBetMessages = buffer[betIDVar].messages.filter(message =>\n            message.transform1Message && message.transform1Message.BetType === \"ARBBET\"\n        );\n        // Check if it doesn't exist\n        if (arbBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        }\n        // If it exists, compare        \n        else {\n            // Example: Sort by nested 'arbResults.ArbPercentage'\n            let sortedByArbPercentage = extractAndSortByProperty(buffer[betIDVar].messages, 'arbResults.ArbPercentage');\n\n            // Example: Sort by nested 'arbResults.ArbProfit1'\n            let sortedByArbProfit1 = extractAndSortByProperty(buffer[betIDVar].messages, 'arbResults.ArbProfit1');\n\n            // Check if Points / Profit Margin is high enough\n            if (incomingMessage.transform1Message.arbResults.ArbPercentage > (sortedByArbPercentage[0] + 3) || incomingMessage.transform1Message.arbResults.ArbProfit1 > (sortedByArbProfit1[0] + tenPercentStake)) {\n                // If so , mark it clear\n                main.SameGame = \"Clear\";\n            } else{\n                // If not , mark it unclear\n                main.SameGame = \"Unclear\";\n            }\n        }\n    }\n    // C: If Vigsplitbet\n    if (main.BetType == \"VIGSPLITBET\") {\n\n        // Filter results by BetType\n        let vigsplitBetMessages = buffer[betIDVar].messages.filter(message =>\n            message.transform1Message && message.transform1Message.BetType === \"VIGSPLITBET\"\n        );\n        // Check if it doesn't exist\n        if (vigsplitBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        } else {\n        // If not , mark it unclear\n            main.SameGame = \"Unclear\";\n        }\n    }\n    // D: If Vigsplitbet\n    if (main.BetType == \"MONEYLINEBET\") {\n\n        // Filter results by BetType\n        let moneylineBetMessages = buffer[betIDVar].messages.filter(message =>\n            message.transform1Message && message.transform1Message.BetType === \"MONEYLINEBET\"\n        );\n        // Check if it doesn't exist\n        if (moneylineBetMessages.length <= 0) {\n            main.SameGame = \"Clear\";\n        } else {\n            // If not , mark it unclear\n            main.SameGame = \"Unclear\";\n        }\n    }\n}\n\nfunction calculateProfit() {\n\n    // CHECK MIDDLEBET\n    if (incomingMessage.transform1Message.BetType == \"MIDDLEBET\"){\n        if (incomingMessage.transform1Message.PointspreadPointsDifference >= incomingMessage.transform1Message.PointspreadRangeMin)\n        {main.profitCheck = true;}\n        else{ main.profitCheck = false;}\n    }\n    // CHECK ARBBET\n    else if(incomingMessage.transform1Message.BetType == \"ARBBET\"){\n        if (incomingMessage.transform1Message.arbResults.ArbPercentage >= arbPercentageRangeMin)\n        { main.profitCheck = true; }\n        else { main.profitCheck = false; }      \n    }\n    // CHECK VIGSPLITBET\n    else if (incomingMessage.transform1Message.BetType == \"VIGSPLITBET\"){\n        if (incomingMessage.transform1Message.vigSplitProfit >= vigSplitRangeMin) { main.profitCheck = true; }\n        else { main.profitCheck = false; }\n    }\n    // CHECK MONEYLINEBET\n    else if (incomingMessage.transform1Message.BetType == \"MONEYLINEBET\") {\n        if (incomingMessage.transform1Message.moneylineDifference > moneylineRangeMin) { main.profitCheck = true; }\n        else { main.profitCheck = false; }\n    }\n    // CHECK VIGMAX\n    if (incomingMessage.transform1Message.TotalVig > vigMax){\n        main.profitCheck = false;\n    }\n\n}\n\n\n//========================\n// EXECUTION FUNCTIONS\n\n// If we have collected resultCounter messages for this betIDVar, process them\nif (buffer[betIDVar].messages.length === resultCounter) {\n\n\n        clearTimeout(timeouts[betIDVar]); // Important to clear timeout\n        context.set(\"timeouts\", timeouts); // Persist timeouts changes\n\n        // CALCULATE HERE\n        calculateComparison();\n        calculateProfit();\n        \n        // ADD ALL KEYS\n        for (const [key, value] of Object.entries(main)) {\n            incomingMessage.transform1Message[key] = value;\n        }\n        \n        // Prep Message and Send\n        var newMsg = {...msg};\n        newMsg.extractMessage = msg.extractMessage;\n        newMsg.transform1Message = incomingMessage.transform1Message;\n        newMsg.transformResults = incomingMessage.transformResults;\n        newMsg.main = main;\n\n        // Send the combined message on\n        node.send(newMsg);\n\n        // Cleanup buffer and timeouts for this betIDVar\n        cleanupBuffer(betIDVar);\n\n}\n\n//\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 15,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 640,
+        "wires": [
+            [
+                "7f404f5ee3444148",
+                "148caedec77ae2dc"
+            ]
+        ]
+    },
+    {
+        "id": "148caedec77ae2dc",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": "Debug COMPARE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7f404f5ee3444148",
+        "type": "link out",
+        "z": "1f92eed3352f8aa5",
+        "g": "bf94ecd062e4e70d",
+        "name": " BetInputCheck Ph2 : OUT : Compare > Load: Pack to HTTP",
+        "mode": "link",
+        "links": [
+            "2e4fb60325f287ea"
+        ],
+        "x": 1445,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "844825e531e70a8c",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "907bb0adef74d85a",
+        "name": "Load: Pack to HTTP",
+        "func": "\nvar incomingMessage = msg;\n\n\n//===================================\nmsg.statusCode = 200; // Set HTTP status code to 200 OK\nmsg.headers = {\n    \"Content-Type\": \"application/json\" // Set Content-Type header to text/plain\n};\n// Skip the Sort\nmsg.payload = {\n    extractMessage: incomingMessage.extractMessage,\n    finalMessage: incomingMessage.transform2Message,\n    transform1Message: incomingMessage.transform1Message,\n    _msgid: incomingMessage._msgid,\n};\n//delete msg.req;\n//delete msg.res;\n//msg.req = incomingMessage.transform1Message.scraped_bet_2.req;\n//msg.res = incomingMessage.transform1Message.scraped_bet_2.res;\n\nvar req2 = incomingMessage.transform1Message.scraped_bet_1.req;\nvar res2 = incomingMessage.transform1Message.scraped_bet_1.res; \n\ndelete msg.transform1Message.req;\ndelete msg.transform1Message.res;\ndelete msg.transform1Message.scraped_bet_1.req;\ndelete msg.transform1Message.scraped_bet_1.res;\ndelete msg.transform1Message.scraped_bet_2.req;\ndelete msg.transform1Message.scraped_bet_2.res;\n\n//========================\n// EXECUTION FUNCTIONS\n\nnode.send(msg);\n\n//msg.req = req2;\n//msg.res = res2;\n\n//node.send(msg);\nreturn null\n\n//\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 820,
+        "wires": [
+            [
+                "8e05a6c56f99c187",
+                "37c361494a477963"
+            ]
+        ]
+    },
+    {
+        "id": "8e05a6c56f99c187",
+        "type": "debug",
+        "z": "1f92eed3352f8aa5",
+        "g": "907bb0adef74d85a",
+        "name": "Debug RESPONSE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "2e4fb60325f287ea",
+        "type": "link in",
+        "z": "1f92eed3352f8aa5",
+        "g": "907bb0adef74d85a",
+        "name": "BetInputCheck Ph3: IN : Compare > Load: Pack to HTTP",
+        "links": [
+            "7f404f5ee3444148"
+        ],
+        "x": 75,
+        "y": 820,
+        "wires": [
+            [
+                "844825e531e70a8c"
+            ]
+        ]
+    },
+    {
+        "id": "37c361494a477963",
+        "type": "websocket out",
+        "z": "1f92eed3352f8aa5",
+        "g": "907bb0adef74d85a",
+        "name": "ws/BetInputCheck",
+        "server": "df8a615d6d2cd2e7",
+        "client": "",
+        "x": 1380,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "3172a5061aab2782",
+        "type": "comment",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "BETINPUTCHECK : Full Pseudocode",
+        "info": "// TO PARSE:\n\n// 1. BOOK > GAME NUMBER > TIME \n// 2. SPORTS > LEAGUE > TEAM\n// 3. POINTS > LINE >   \n// 4. CHECK WAIT FOR OTHER LINE\n// 5. CHECK FOR ACCEPTABLE RANGE OF PROFIT\n// 6. IF SO, GO AHEAD",
+        "x": 200,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8dde91e674783ac8",
+        "type": "comment",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "DO NODE RED A>B>C TRACKING COMMENTS",
+        "info": "",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "82f37f0f6985ba34",
+        "type": "comment",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "GIVE IT LINETYPE",
+        "info": "",
+        "x": 1030,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f4f02f7b9a092dd3",
+        "type": "function",
+        "z": "1f92eed3352f8aa5",
+        "g": "9e02f8f5e79de5a0",
+        "name": "TEST JSON",
+        "func": "msg.payload = {\n  \"scrapeResults\": {\n    \"scraped_sport\": \"FOOTBALL\",\n    \"scraped_lineType\": \"POINTSPREAD\",\n    \"scraped_line\": \"-3.5\",\n    \"scraped_odds\": -110,\n    \"scraped_team\": \"Team A\",\n    \"scraped_opponent\": \"Team B\",\n    \"scraped_league\": \"CFB\",\n    \"scraped_gameNumber\": \"309225\",\n    \"scraped_book\": \"Bookmaker1\",\n    \"scraped_timestamp\": \"2025-09-04T02:43:54.460Z\"\n  },\n  \"fullBet\": {\n    \"sport\": \"Football\",\n    \"League\": \"CFB\",\n    \"gameNumber\": \"309225\",\n    \"team\": \"Team A\",\n    \"opponent\": \"Team B\",\n    \"line\": \"-3.5\",\n    \"odds\": -110,\n    \"book\": \"Bookmaker1\"\n  },\n  \"scraped_bet_1\": {\n    \"scraped_sport\": \"FOOTBALL\",\n    \"scraped_lineType\": \"POINTSPREAD\",\n    \"scraped_line\": \"-3.5\",\n    \"scraped_odds\": -110,\n    \"scraped_team\": \"Team A\",\n    \"scraped_opponent\": \"Team B\",\n    \"scraped_league\": \"CFB\",\n    \"scraped_gameNumber\": \"309225\",\n    \"scraped_book\": \"Bookmaker1\",\n    \"scraped_timestamp\": \"2025-09-04T02:43:54.460Z\"\n  },\n  \"scraped_bet_2\": {\n    \"scraped_sport\": \"FOOTBALL\",\n    \"scraped_lineType\": \"POINTSPREAD\",\n    \"scraped_line\": \"+3.5\",\n    \"scraped_odds\": -110,\n    \"scraped_team\": \"Team B\",\n    \"scraped_opponent\": \"Team A\",\n    \"scraped_league\": \"CFB\",\n    \"scraped_gameNumber\": \"309225\",\n    \"scraped_book\": \"Bookmaker2\",\n    \"scraped_timestamp\": \"2025-09-04T02:43:56.469Z\"\n  }\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "054adb80f90a06e5"
+            ]
+        ]
+    },
+    {
+        "id": "991f5a75c2dd331f",
+        "type": "inject",
+        "z": "1f92eed3352f8aa5",
+        "g": "4126bd8cd63414e5",
+        "name": "START INJECT",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "START",
+        "payloadType": "str",
+        "x": 160,
+        "y": 380,
+        "wires": [
+            [
+                "f4f02f7b9a092dd3"
+            ]
+        ]
+    }
+]
