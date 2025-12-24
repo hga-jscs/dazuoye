@@ -14,7 +14,7 @@ namespace {
 
 void PrintUsage() {
     std::cout << "用法: mytool <目标文件/目录> <下界> <上界> [忽略标签1 忽略标签2 ...]\n";
-    std::cout << "示例: mytool ./json 230902 5 6 z\n";
+    std::cout << "示例: mytool ./json 5 6 z\n";
 }
 
 std::vector<std::filesystem::path> CollectJsonFiles(const std::filesystem::path& input_path) {
@@ -90,6 +90,19 @@ int main(int argc, char* argv[]) {
         std::cerr << "[ERROR] 下界和上界必须是非负整数。\n";
         return 1;
     }
+    if (lower == 0 || upper == 0) {
+        std::cerr << "[ERROR] 下界和上界必须是正整数。\n";
+        return 1;
+    }
+    if (lower > upper) {
+        std::cerr << "[ERROR] 下界不能大于上界。\n";
+        return 1;
+    }
+
+    if (!std::filesystem::exists(input_path)) {
+        std::cerr << "[ERROR] 目标路径不存在: " << input_path << "\n";
+        return 1;
+    }
 
     std::vector<std::string> ignored_labels;
     for (int i = 4; i < argc; ++i) {
@@ -119,6 +132,8 @@ int main(int argc, char* argv[]) {
         std::cout << "[DEBUG] use_all_wires=" << (config.use_all_wires ? "true" : "false")
                   << ", allow_disconnected=" << (config.allow_disconnected ? "true" : "false")
                   << ", verbose_debug=" << (config.verbose_debug ? "true" : "false") << "\n";
+        std::cout << "[DEBUG] 输入路径: " << input_path << "\n";
+        std::cout << "[DEBUG] 子图规模范围: [" << lower << ", " << upper << "]\n";
         std::cout << "[DEBUG] 忽略标签:";
         if (ignored_labels.empty()) {
             std::cout << " (无)";
