@@ -6,6 +6,7 @@
 namespace {
 
 bool IsClosed(const Graph& graph, const std::vector<bool>& in_set) {
+    // 闭包检查：子图内的节点不能指向子图外的节点。
     for (std::size_t i = 0; i < graph.nodes.size(); ++i) {
         if (!in_set[i]) {
             continue;
@@ -24,6 +25,7 @@ void AddIfValid(std::vector<Subgraph>& output,
                 const std::vector<std::size_t>& nodes,
                 std::size_t lower,
                 std::size_t upper) {
+    // 限制大小范围，并通过闭包过滤。
     if (nodes.size() < lower || nodes.size() > upper) {
         return;
     }
@@ -43,6 +45,7 @@ void EnumerateDisconnectedRec(std::vector<Subgraph>& output,
                               std::size_t index,
                               std::size_t lower,
                               std::size_t upper) {
+    // 递归枚举所有组合，剪枝控制上界。
     if (current.size() > upper) {
         return;
     }
@@ -66,6 +69,7 @@ void EnumerateConnectedRec(std::vector<Subgraph>& output,
                            std::size_t start,
                            std::size_t lower,
                            std::size_t upper) {
+    // 在候选邻居中扩展连通子图，避免重复（只接受索引大于 start 的节点）。
     AddIfValid(output, graph, current, lower, upper);
     if (current.size() >= upper) {
         return;
@@ -104,17 +108,20 @@ std::vector<Subgraph> EnumerateSubgraphs(const Graph& graph,
                                          std::size_t upper,
                                          bool allow_disconnected) {
     std::vector<Subgraph> output;
+    // 不满足基本约束时直接返回空结果。
     if (graph.nodes.empty() || lower > upper || upper == 0) {
         return output;
     }
 
     if (allow_disconnected) {
+        // 允许非连通时，直接枚举所有组合。
         std::vector<std::size_t> current;
         EnumerateDisconnectedRec(output, graph, current, 0, lower, upper);
         return output;
     }
 
     for (std::size_t start = 0; start < graph.nodes.size(); ++start) {
+        // 以每个起点作为最小索引，避免重复枚举同一子图。
         std::vector<std::size_t> current{start};
         std::vector<bool> in_set(graph.nodes.size(), false);
         in_set[start] = true;

@@ -9,6 +9,7 @@ using nlohmann::json;
 
 PlusConfig LoadPlusConfig(const std::filesystem::path& path) {
     PlusConfig config;
+    // 配置文件不存在时直接返回默认配置。
     if (!std::filesystem::exists(path)) {
         return config;
     }
@@ -22,6 +23,7 @@ PlusConfig LoadPlusConfig(const std::filesystem::path& path) {
     try {
         json data;
         file >> data;
+        // 逐项读取，缺失字段保留默认值。
         config.use_all_wires = data.value("use_all_wires", config.use_all_wires);
         config.allow_disconnected = data.value("allow_disconnected", config.allow_disconnected);
         config.verbose_debug = data.value("verbose_debug", config.verbose_debug);
