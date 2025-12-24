@@ -27,11 +27,13 @@ void WriteModules(const std::filesystem::path& input_path,
                   const std::vector<Subgraph>& subgraphs,
                   const std::vector<std::string>& ignored_labels,
                   bool verbose_debug) {
+    // 按子图大小统计序号，确保同大小子图文件名不冲突。
     std::map<std::size_t, std::size_t> counter_by_size;
     const std::string base = input_path.stem().string();
     const std::string label_part = JoinLabels(ignored_labels);
 
     for (const auto& subgraph : subgraphs) {
+        // 收集子图节点，并保留原始 JSON 数据。
         std::vector<Node> nodes;
         nodes.reserve(subgraph.nodes.size());
         for (std::size_t idx : subgraph.nodes) {
@@ -46,6 +48,7 @@ void WriteModules(const std::filesystem::path& input_path,
         std::size_t size = nodes.size();
         std::size_t index = ++counter_by_size[size];
 
+        // 文件名格式：module_<原始文件名>_<忽略标签>_<节点数量>_<序号>.json
         std::string filename = "module_" + base + "_";
         if (!label_part.empty()) {
             filename += label_part + "_";
@@ -59,6 +62,7 @@ void WriteModules(const std::filesystem::path& input_path,
             continue;
         }
         file << output.dump(4);
+        // verbose_debug 为 true 时输出可视化列表，便于核对结果。
         if (verbose_debug) {
             std::cout << "[MODULE] " << out_path.filename().string() << "\n";
             std::cout << "  节点数量: " << size << "\n";

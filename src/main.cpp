@@ -19,6 +19,7 @@ void PrintUsage() {
 
 std::vector<std::filesystem::path> CollectJsonFiles(const std::filesystem::path& input_path) {
     std::vector<std::filesystem::path> files;
+    // 单文件输入：只接受 .json 文件。
     if (std::filesystem::is_regular_file(input_path)) {
         if (input_path.extension() == ".json") {
             files.push_back(input_path);
@@ -30,6 +31,7 @@ std::vector<std::filesystem::path> CollectJsonFiles(const std::filesystem::path&
         return files;
     }
 
+    // 目录输入：过滤非 JSON 文件与已有 module_ 前缀的输出文件。
     for (const auto& entry : std::filesystem::directory_iterator(input_path)) {
         if (!entry.is_regular_file()) {
             continue;
@@ -48,6 +50,7 @@ std::vector<std::filesystem::path> CollectJsonFiles(const std::filesystem::path&
 
 std::unordered_map<std::string, bool> BuildIgnoreMap(const std::vector<std::string>& labels) {
     std::unordered_map<std::string, bool> ignored;
+    // 通过 map 查找实现快速忽略。
     for (const auto& label : labels) {
         ignored[label] = true;
     }
@@ -55,6 +58,7 @@ std::unordered_map<std::string, bool> BuildIgnoreMap(const std::vector<std::stri
 }
 
 void PrintGraphSummary(const Graph& graph) {
+    // 简要可视化输出，帮助确认节点与连接数。
     std::cout << "[INFO] 节点数量: " << graph.nodes.size() << "\n";
     std::size_t edge_count = 0;
     for (const auto& edges : graph.directed_edges) {
@@ -92,6 +96,7 @@ int main(int argc, char* argv[]) {
         ignored_labels.push_back(argv[i]);
     }
 
+    // 优先读取输入目录或文件同级的 plusconfig.json。
     std::filesystem::path config_path;
     if (std::filesystem::is_directory(input_path)) {
         config_path = input_path / "plusconfig.json";
@@ -109,6 +114,22 @@ int main(int argc, char* argv[]) {
     }
 
     std::unordered_map<std::string, bool> ignored_map = BuildIgnoreMap(ignored_labels);
+    if (config.verbose_debug) {
+        std::cout << "[DEBUG] 使用配置文件: " << config_path << "\n";
+        std::cout << "[DEBUG] use_all_wires=" << (config.use_all_wires ? "true" : "false")
+                  << ", allow_disconnected=" << (config.allow_disconnected ? "true" : "false")
+                  << ", verbose_debug=" << (config.verbose_debug ? "true" : "false") << "\n";
+        std::cout << "[DEBUG] 忽略标签:";
+        if (ignored_labels.empty()) {
+            std::cout << " (无)";
+        } else {
+            for (const auto& label : ignored_labels) {
+                std::cout << " " << label;
+            }
+        }
+        std::cout << "\n";
+        std::cout << "[DEBUG] 待处理文件数量: " << files.size() << "\n";
+    }
 
     for (const auto& file_path : files) {
         nlohmann::json data;
@@ -116,6 +137,7 @@ int main(int argc, char* argv[]) {
             continue;
         }
 
+        // 每个文件都单独显示标题，便于在日志中定位。
         std::cout << "\n[FILE] " << file_path << "\n";
         Graph graph = BuildGraph(data, ignored_map, config.use_all_wires);
         if (config.verbose_debug) {
