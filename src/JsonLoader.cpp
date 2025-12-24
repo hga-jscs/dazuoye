@@ -11,6 +11,7 @@ bool LoadJsonFile(const std::filesystem::path& path, nlohmann::json& out_json) {
     }
 
     try {
+        // 直接使用 nlohmann::json 流式解析，保证格式错误可被捕获。
         file >> out_json;
     } catch (const std::exception& ex) {
         std::cerr << "[ERROR] JSON 解析失败: " << path << "，原因: " << ex.what() << std::endl;
