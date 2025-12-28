@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-mytool.py
-
-保持旧入口，实际逻辑位于 mytool 包中。
-"""
-
 from __future__ import annotations
 
 import sys
