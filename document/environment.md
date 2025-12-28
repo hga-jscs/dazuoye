@@ -1,41 +1,38 @@
 # 环境配置要求（原子级说明）
 
-本文件用于明确**能成功编译与运行**所需的最小环境配置。请按自己的平台逐项核对。
+本文件用于明确**能成功运行**所需的最小环境配置。请按自己的平台逐项核对。
 
 ## 1. 通用要求（所有平台）
 
-- **C++17 编译器**（必须）：支持 `std::filesystem`。
-- **构建工具**：命令行可用 `g++` 或 `cl`。
+- **Python 3**（必须）：建议 3.8+。
 - **文件编码**：源代码为 UTF-8（包含中文日志），终端建议设置为 UTF-8。
 - **运行目录权限**：需具备写权限（输出 `module_*.json`）。
 
 ## 2. Windows（PowerShell）
 
-### 2.1 MinGW-w64（推荐上手快）
+### 2.1 Python 3（推荐上手快）
 
 **必需项**
 
-- `g++`（MinGW-w64 版，支持 C++17）
+- `python`（Python 3）
 - PowerShell 5+（或 Windows Terminal）
 
 **检查命令**
 
 ```powershell
-g++ --version
+python --version
 ```
 
 **编译命令**
 
 ```powershell
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic -I.\src -o mytool.exe `
-  src\main.cpp src\Config.cpp src\Graph.cpp src\JsonLoader.cpp `
-  src\SubgraphEnumerator.cpp src\ModuleWriter.cpp
+python .\mytool .\json 5 6 z
 ```
 
 **运行命令**
 
 ```powershell
-.\mytool.exe .\json 5 6 z
+.\mytool .\json 5 6 z
 ```
 
 **常见问题**
@@ -44,58 +41,26 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic -I.\src -o mytool.exe `
   - 确认 `mytool.exe` 是否真的生成在当前目录。
   - 确认执行时使用 `.\mytool.exe`。
 
-### 2.2 MSVC（Visual Studio）
+### 2.2 Windows 备注
 
-**必需项**
-
-- Visual Studio（C++ 桌面开发）
-- “x64 Native Tools Command Prompt for VS”
-
-**检查命令**
-
-```powershell
-cl
-```
-
-**编译命令**
-
-```powershell
-cl /std:c++17 /O2 /W4 /EHsc /I.\src `
-  src\main.cpp src\Config.cpp src\Graph.cpp src\JsonLoader.cpp `
-  src\SubgraphEnumerator.cpp src\ModuleWriter.cpp `
-  /Fe:mytool.exe
-```
-
-**运行命令**
-
-```powershell
-.\mytool.exe .\json 5 6 z
-```
+- 如果直接执行 `.\mytool` 提示权限问题，请使用 `python .\mytool`。
 
 ## 3. Linux / macOS
 
 **必需项**
 
-- `g++`（支持 C++17）
+- `python3`
 
 **检查命令**
 
 ```bash
-g++ --version
-```
-
-**编译命令**
-
-```bash
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic -I./src -o mytool \
-  src/main.cpp src/Config.cpp src/Graph.cpp src/JsonLoader.cpp \
-  src/SubgraphEnumerator.cpp src/ModuleWriter.cpp
+python3 --version
 ```
 
 **运行命令**
 
 ```bash
-./mytool ./json 5 6 z
+python3 mytool ./json 5 6 z
 ```
 
 ## 4. 目录与输入约束（运行级别）

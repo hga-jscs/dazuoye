@@ -3,57 +3,23 @@
 > 本工具用于从 JSON 节点数组中枚举子图，并输出独立的 module_*.json 文件。
 > **调试输出非常重要**：如果你想确认程序到底做了什么，请确保 `verbose_debug` 为 `true`。
 
-## 0. 编译（必须先生成可执行文件）
+## 0. 环境准备（Python）
 
-> Windows 下无法直接运行 `./mytool`，需要先编译生成 `mytool.exe`。
-> 如果你在 PowerShell 里报“无法识别 cmdlet”，通常就是**没有生成可执行文件**或不在该目录下。
+本工具使用 **Python 3** 直接运行，无需编译。
 
-### Linux / macOS（g++）
-
-```bash
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic -I./src -o mytool \
-  src/main.cpp src/Config.cpp src/Graph.cpp src/JsonLoader.cpp \
-  src/SubgraphEnumerator.cpp src/ModuleWriter.cpp
-```
-
-运行时：
+### Linux / macOS
 
 ```bash
-./mytool ./json 5 6 z
+python3 mytool ./json 5 6 z
 ```
 
-### Windows（MinGW g++）
+### Windows（PowerShell）
 
 ```powershell
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic -I.\src -o mytool.exe `
-  src\main.cpp src\Config.cpp src\Graph.cpp src\JsonLoader.cpp `
-  src\SubgraphEnumerator.cpp src\ModuleWriter.cpp
+python .\mytool .\json 5 6 z
 ```
 
-运行时：
-
-```powershell
-.\mytool.exe .\json 5 6 z
-```
-
-### Windows（MSVC cl）
-
-> 在 “x64 Native Tools Command Prompt for VS” 中执行。
-
-```powershell
-cl /std:c++17 /O2 /W4 /EHsc /I.\src `
-  src\main.cpp src\Config.cpp src\Graph.cpp src\JsonLoader.cpp `
-  src\SubgraphEnumerator.cpp src\ModuleWriter.cpp `
-  /Fe:mytool.exe
-```
-
-运行时：
-
-```powershell
-.\mytool.exe .\json 5 6 z
-```
-
-> 提示：可执行文件会输出在**当前目录**，请确认终端当前路径与可执行文件所在目录一致。
+> 如果系统已允许执行脚本，也可以使用 `./mytool`（类 Unix）或 `.\mytool`（PowerShell）。
 
 ## 1. 准备输入
 
@@ -86,13 +52,13 @@ cl /std:c++17 /O2 /W4 /EHsc /I.\src `
 进入项目根目录，执行：
 
 ```bash
-./mytool <目标文件或目录> <下界> <上界> [忽略标签...]
+python3 mytool <目标文件或目录> <下界> <上界> [忽略标签...]
 ```
 
 ### 示例
 
 ```bash
-./mytool ./json 5 6 z
+python3 mytool ./json 5 6 z
 ```
 
 解释：
@@ -177,9 +143,9 @@ module_input_z_5_1.json
 项目自带测试 JSON（见 `test/`），建议至少跑以下组合：
 
 ```bash
-./mytool test/simple.json 2 3
-./mytool test/ignore_label.json 2 4 z
-./mytool test/disconnected.json 2 3
+python3 mytool test/simple.json 2 3
+python3 mytool test/ignore_label.json 2 4 z
+python3 mytool test/disconnected.json 2 3
 ```
 
 如果要压力测试，建议开启 `verbose_debug` 先观察规模，再决定是否打开 `allow_disconnected`。
